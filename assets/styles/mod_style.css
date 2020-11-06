@@ -1,0 +1,50 @@
+
+
+.modulos {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.modulos a{
+    color: #000;
+}
+
+
+
+.mod {
+    float: left;
+    padding: 15px;
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+.mod:hover {
+    background-color: #ccc;
+}
+
+.mod img {
+    width: 45%;
+    float: left;
+
+}
+
+.mod2 img {
+    float: right;
+}
+
+
+  
+.mod-text{
+    width: 45%;
+    float: right;
+}
+  
+.mod2 .mod-text {
+    float: left;
+}
+
+.mod3 {
+    margin-bottom: 100px;
+}
+
+
