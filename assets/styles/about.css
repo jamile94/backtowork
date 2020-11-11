@@ -1,0 +1,28 @@
+#principal {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.cards img {
+    width: 500px;
+    float: left;
+    margin-right: 10px;
+}
+
+.colab {
+    margin: 10px 0;
+    overflow: hidden;
+}
+  
+
+
+h2, h3, p{
+    text-align: left;
+    padding: 10px;
+    font-size: 26px;
+}
+
+#amanda {
+    float: right;
+}
