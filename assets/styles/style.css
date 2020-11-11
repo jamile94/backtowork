@@ -18,21 +18,21 @@ body {
   position: relative;
   color: #fff;
   margin: 0 0 800px 0;
-  font-size: 24px;
+  font-size: 20px;
   box-sizing: border-box;
 
 }
 
 h1 {
-  margin: 20px 0 0 10px;
+  margin: 20px 0 0 2px;
 }
 
 .header-top nav {
   position: absolute;
   top: 0;
   margin: 0 auto;
-  right: 5%;
-  height: 00px;
+  right: 5px;
+  height: 0px;
 }
 
 .header-top nav ul{
