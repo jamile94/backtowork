@@ -1,0 +1,158 @@
+/* reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+.hero-banner {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/hero-banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2%;
+}
+
+    
+
+.logo{
+    width: 30%;
+    height: 25px;
+    float: left;
+    padding: 10px;
+    background-color: #368276;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.logo h1 {
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 3px;
+    color: #fff;
+    
+}
+
+#triangle {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #e86610;
+}
+
+.btn-menu {
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin-right: 2%;
+    background-color: #368276;
+    text-align: center;
+    border-radius: 45px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*menu*/
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.menu li {
+    padding: 1%;
+    font-size: 2em;
+    color: #fff;
+}
+
+.menu li:hover{
+    border: 2px solid #e86610;
+    color: #368276;
+}
+
+.btn-close {
+    font-size: 3em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+/**/
+.start-now {
+    float: left;
+    text-align: left;
+    margin: 50px 50px 0 50px;
+    color: #ffF;
+    background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.start-now h2{
+    width: 60%;
+    font-size: 1.3em;
+
+}
+
+.div-singin {
+    float: left;
+    text-align: left;
+    margin: 20px 0 10px 100px;
+    background-color: #368276;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px #888888;
+}
+
+.div-singin p{
+    padding: 5px;
+}
+
+.btn-singin{
+    color: #fff;
+    padding: 10px;
+}
+
+.div-singin:hover{
+    background-color: aqua;
+}
+
+.singin {
+     display: none;
+}
