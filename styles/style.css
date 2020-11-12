@@ -268,13 +268,12 @@ time, mark, audio, video {
 }
 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px){
     body {
         background-color: #fff;
         width: 98%;
         margin: auto;
         box-sizing: border-box;
-        border: 1px solid red;
     }
     
     a {
@@ -515,6 +514,44 @@ time, mark, audio, video {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .articles {
+        margin: 10px auto;
+        width: 100%;
+        color: #368276;
+        float: left;
+        text-align: center;
+    }
+    
+    .articles article{
+        display: inline-block;
+        width: 40%;
+        height: 200px;
+        margin: auto;
+    }
+    
+    
+    .articles img {
+        width: 70%;
+        float: none;
+        margin-right: 5px;
+    }
+    
+    .articles h2 {
+        margin-top: 0;
+    }
+    
+    #art2 {
+        margin: 0;
+    }
+    
+    #art2 img{
+        float: none;
+        width: 75%;
+        
+    }
+}
+
 @media screen and (min-width: 768px) {
    body {
      box-sizing: border-box;
@@ -625,13 +662,10 @@ time, mark, audio, video {
         
     }
 
-    footer {
-        border: 2px solid red;
-    }
+   
 
     
 }
- 
   
 @media screen and (min-width: 800px) {
     body {
