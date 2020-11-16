@@ -351,13 +351,13 @@ time, mark, audio, video {
         text-align: center;
     }
     .menu li {
-        padding: 1%;
+        padding: 1px;
+        border: 100px;
         font-size: 2em;
         color: #fff;
     }
     
     .menu li:hover{
-        border: 2px solid #e86610;
         color: #368276;
     }
     
@@ -420,7 +420,7 @@ time, mark, audio, video {
         width: 100%;
         margin: auto;
     }
-    
+
     .cards {
         width: 90%;
         margin: auto;
@@ -570,6 +570,7 @@ time, mark, audio, video {
     /*menu*/
     .menu {
         display: inline-block;
+        border-radius: 10px;
         width: 60%;
         height: 50px;
         top: -3px;
@@ -587,18 +588,18 @@ time, mark, audio, video {
     }
     .menu li {
         display: inline-block;
-        padding: 1%;
+        padding: 6px;
+        border: transparent 0px;
         font-size: 1.3em;
         color: #fff;
     }
 
+    .menu li:hover {
+        color: #e86610;
+    }
     
     .btn-close {
         display: none;
-    }
-    .menu li:hover{
-        background-color: #e86610;
-        color: #368276;
     }
   
     .btn-singin {
