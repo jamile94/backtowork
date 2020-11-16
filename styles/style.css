@@ -430,6 +430,7 @@ time, mark, audio, video {
     
     
     .card {
+        border-radius: 10px;
         width: 30%;
         height: 40px;
         background-color: #e86610;
