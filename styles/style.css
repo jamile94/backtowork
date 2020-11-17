@@ -22,18 +22,19 @@ time, mark, audio, video {
     font-family: sans-serif;
 }
 
-@media screen and (max-width: 400px) {
+/* mobile */
+@media (max-width: 480px) {
     body {
         background-color: #fff;
         width: 98%;
         margin: auto;
         box-sizing: border-box;
     }
-    
+
     a {
         text-decoration: none;
     }
-    
+
     /*header*/
     .hero-banner {
         width: 100%;
@@ -45,10 +46,8 @@ time, mark, audio, video {
         padding: 2% 0;
         bottom: 0;
     }
-    
-        
-    
-    .logo{
+
+    .logo {
         width: 33%;
         height: 25px;
         float: left;
@@ -57,15 +56,14 @@ time, mark, audio, video {
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
     }
-    
+
     .logo h1 {
         position: absolute;
         text-transform: uppercase;
         margin-top: 3px;
         color: #fff;
-        
     }
-    
+
     #triangle {
         position: absolute;
         width: 0; 
@@ -74,7 +72,7 @@ time, mark, audio, video {
         border-bottom: 12px solid transparent;
         border-left: 12px solid #e86610;
     }
-    
+
     .btn-menu {
         width: 45px;
         height: 45px;
@@ -87,7 +85,7 @@ time, mark, audio, video {
         cursor: pointer;
         text-shadow: 2px 2px 4px #000000;
     }
-    
+
     /*menu*/
     .menu {
         display: none;
@@ -98,23 +96,24 @@ time, mark, audio, video {
         top: 0;
         left: 0;
     }
-    
+
     .menu ul {
         width: 100%;
         float: left;
         text-align: center;
     }
+
     .menu li {
-        padding: 1%;
+        padding: 1px;
+        border: 100px;
         font-size: 2em;
         color: #fff;
     }
-    
-    .menu li:hover{
-        border: 2px solid #e86610;
+
+    .menu li:hover {
         color: #368276;
     }
-    
+
     .btn-close {
         font-size: 3em;
         color: #fff;
@@ -122,7 +121,7 @@ time, mark, audio, video {
         cursor: pointer;
         margin-right: 5%;
     }
-    
+
     /**/
     .start-now {
         float: left;
@@ -132,11 +131,12 @@ time, mark, audio, video {
         background-color: rgba(92.9 , 38.8, 9.4, 0.5);
         text-shadow: 2px 2px 4px #000000;
     }
-    
-    .start-now h2, p{
+
+    .start-now h2, p {
         padding-left: 2%;
+        width: 60%;
     }
-    
+
     .div-singin {
         float: left;
         text-align: left;
@@ -145,27 +145,26 @@ time, mark, audio, video {
         text-shadow: 2px 2px 4px #000000;
         box-shadow: 2px 2px #888888;
     }
-    
-    .div-singin p{
+
+    .div-singin p {
         padding: 5px;
     }
-    
-    .btn-singin{
+
+    .btn-singin {
         color: #fff;
         padding: 10px;
     }
-    
-    .div-singin:hover{
+
+    .div-singin:hover {
         background-color: rgb(7, 90, 90);
     }
-    
+
     /*main*/
-    
     .singin {
          display: none;
          clear: both;
     }
-    
+
     .modulos {
         background-color: #368276;
         top: 0;
@@ -173,64 +172,66 @@ time, mark, audio, video {
         width: 100%;
         margin: auto;
     }
-    
+
     .cards {
         width: 90%;
         margin: auto;
         text-align: center;
         padding: 10px;
     }
-    
-    
+
     .card {
+        border-radius: 10px;
         width: 30%;
         height: 40px;
         background-color: #e86610;
         display: inline-block;
     }
-    
+
     .card:hover {
         background-color: rgba(92.9 , 38.8, 9.4, 0.5);
     }
-    
-    .card p{
+
+    .card p {
         color: #fff;
         text-align: center;
         margin-top: 10px;
     }
-    
-    
+
     .articles {
-        margin: 10px 0;
+        margin: 10px auto;
         width: 100%;
         color: #368276;
-    }
-    
-    .articles article{
-        padding: 10px;
-    }
-    
-    
-    .articles img {
-        width: 50%;
         float: left;
+        text-align: center;
+    }
+
+    .articles article {
+        display: inline-block;
+        width: 40%;
+        height: 200px;
+        margin: auto;
+    }
+
+    .articles img {
+        width: 70%;
+        float: none;
         margin-right: 5px;
     }
-    
+
     .articles h2 {
         margin-top: 20px;
     }
-    
+
     #art2 {
-        margin: 10px;
-        clear: both;
-        margin-right: 5px;
+        margin: 0;
     }
-    
-    #art2 img{
-        float: right;
+
+    #art2 img {
+        float: none;
+        width: 75%;
     }
-    
+
     .explain {
         background-color: #368276;
         color: #fff;
@@ -238,48 +239,51 @@ time, mark, audio, video {
         padding: 10px;
         text-align: left;
     }
-    
+
     footer {
         margin-top: 10px;
         color: #368276;
         text-align: center;
     }
-    .nets{
+
+    .nets {
         margin-bottom: -10px;
     }
-    .redes{
+
+    .redes {
       display: inline-block;
       width: 130px;
       padding-top: 10px;
     }
-    
-    .redes span{
+
+    .redes span {
       display: inline-block;
       width: 30%;
     }
+
     .redes img {
       width: 60%;
       margin-bottom: 5px;
     }
-    
+
     h2 {
         font-size: 1.3em;
     }
 }
 
-
-@media screen and (min-width: 400px){
+/* tablet */
+@media (min-width: 481px) and (max-width: 767px) {
     body {
         background-color: #fff;
         width: 98%;
         margin: auto;
         box-sizing: border-box;
     }
-    
+
     a {
         text-decoration: none;
     }
-    
+
     /*header*/
     .hero-banner {
         width: 100%;
@@ -291,10 +295,8 @@ time, mark, audio, video {
         padding: 2% 0;
         bottom: 0;
     }
-    
-        
-    
-    .logo{
+
+    .logo {
         width: 30%;
         height: 25px;
         float: left;
@@ -303,7 +305,7 @@ time, mark, audio, video {
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
     }
-    
+
     .logo h1 {
         position: absolute;
         text-transform: uppercase;
@@ -311,7 +313,7 @@ time, mark, audio, video {
         color: #fff;
         
     }
-    
+
     #triangle {
         position: absolute;
         width: 0; 
@@ -320,7 +322,7 @@ time, mark, audio, video {
         border-bottom: 12px solid transparent;
         border-left: 12px solid #e86610;
     }
-    
+
     .btn-menu {
         width: 45px;
         height: 45px;
@@ -333,7 +335,7 @@ time, mark, audio, video {
         cursor: pointer;
         text-shadow: 2px 2px 4px #000000;
     }
-    
+
     /*menu*/
     .menu {
         display: none;
@@ -344,23 +346,24 @@ time, mark, audio, video {
         top: 0;
         left: 0;
     }
-    
+
     .menu ul {
         width: 100%;
         float: left;
         text-align: center;
     }
+
     .menu li {
         padding: 1px;
         border: 100px;
         font-size: 2em;
         color: #fff;
     }
-    
+
     .menu li:hover{
         color: #368276;
     }
-    
+
     .btn-close {
         font-size: 3em;
         color: #fff;
@@ -368,7 +371,7 @@ time, mark, audio, video {
         cursor: pointer;
         margin-right: 5%;
     }
-    
+
     /**/
     .start-now {
         float: left;
@@ -378,12 +381,12 @@ time, mark, audio, video {
         background-color: rgba(92.9 , 38.8, 9.4, 0.5);
         text-shadow: 2px 2px 4px #000000;
     }
-    
-    .start-now h2{
+
+    .start-now h2, p {
         width: 60%;
-    
+        padding-left: 2%;
     }
-    
+
     .div-singin {
         float: left;
         text-align: left;
@@ -392,93 +395,94 @@ time, mark, audio, video {
         text-shadow: 2px 2px 4px #000000;
         box-shadow: 2px 2px #888888;
     }
-    
+
     .div-singin p{
         padding: 5px;
     }
-    
+
     .btn-singin{
         color: #fff;
         padding: 10px;
     }
-    
+
     .div-singin:hover{
         background-color: rgb(7, 90, 90);
     }
-    
+
     /*main*/
-    
     .singin {
-         display: none;
-         clear: both;
-    }
-    
-    .modulos {
-        background-color: #368276;
-        top: 0;
+        display: none;
         clear: both;
+   }
+
+   .modulos {
+       background-color: #368276;
+       top: 0;
+       clear: both;
+       width: 100%;
+       margin: auto;
+   }
+
+   .cards {
+       width: 90%;
+       margin: auto;
+       text-align: center;
+       padding: 10px;
+   }
+
+   .card {
+       border-radius: 10px;
+       width: 30%;
+       height: 40px;
+       background-color: #e86610;
+       display: inline-block;
+   }
+
+   .card:hover {
+       background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+   }
+
+   .card p {
+       color: #fff;
+       text-align: center;
+       margin-top: 10px;
+   }
+
+    /**************/
+    .articles {
+        margin: 10px auto;
         width: 100%;
+        color: #368276;
+        float: left;
+        text-align: center;
+    }
+
+    .articles article{
+        display: inline-block;
+        width: 40%;
+        height: 200px;
         margin: auto;
     }
 
-    .cards {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-    
-    
-    .card {
-        border-radius: 10px;
-        width: 30%;
-        height: 40px;
-        background-color: #e86610;
-        display: inline-block;
-    }
-    
-    .card:hover {
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-    }
-    
-    .card p{
-        color: #fff;
-        text-align: center;
-        margin-top: 10px;
-    }
-    
-    
-    .articles {
-        margin: 10px 0;
-        width: 100%;
-        color: #368276;
-    }
-    
-    .articles article{
-        padding: 10px;
-    }
-    
-    
     .articles img {
-        width: 50%;
-        float: left;
+        width: 70%;
+        float: none;
         margin-right: 5px;
     }
-    
+
     .articles h2 {
         margin-top: 20px;
     }
-    
+
     #art2 {
-        margin: 10px;
-        clear: both;
-        margin-right: 5px;
+        margin: 0;
     }
-    
-    #art2 img{
-        float: right;
+
+    #art2 img {
+        float: none;
+        width: 75%;
     }
-    
+
     .explain {
         background-color: #368276;
         color: #fff;
@@ -486,15 +490,17 @@ time, mark, audio, video {
         padding: 10px;
         text-align: left;
     }
-    
+
     footer {
         margin-top: 10px;
         color: #368276;
         text-align: center;
     }
-    .nets{
+
+    .nets {
         margin-bottom: -10px;
     }
+
     .redes{
       display: inline-block;
       width: 130px;
@@ -505,69 +511,76 @@ time, mark, audio, video {
       display: inline-block;
       width: 30%;
     }
+
     .redes img {
       width: 60%;
       margin-bottom: 5px;
     }
-    
+
     h2 {
         font-size: 1.3em;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .articles {
-        margin: 10px auto;
-        width: 100%;
-        color: #368276;
-        float: left;
-        text-align: center;
-    }
-    
-    .articles article{
-        display: inline-block;
-        width: 40%;
-        height: 200px;
-        margin: auto;
-    }
-    
-    
-    .articles img {
-        width: 70%;
-        float: none;
-        margin-right: 5px;
-    }
-    
-    .articles h2 {
-        margin-top: 0;
-    }
-    
-    #art2 {
-        margin: 0;
-    }
-    
-    #art2 img{
-        float: none;
-        width: 75%;
-        
-    }
-}
-
-@media screen and (min-width: 768px) {
+/* tablet virado */
+@media (min-width: 768px) /*and (max-width: 1024px)*/ {
    body {
-     box-sizing: border-box;
-     margin: 30px auto;
+       background-color: #fff;
+       width: 98%;
+       margin: 30px auto;
+       box-sizing: border-box;
    }
 
-    .logo{
+   a {
+        text-decoration: none;
+    }
+
+    /*header*/
+    .hero-banner {
+        width: 100%;
+        height: 250px;
+        background-image: url(../images/hero-banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        padding: 2% 0;
+        bottom: 0;
+    }
+
+    .logo {
         width: 18%;
+        height: 25px;
         float: left;
+        margin: 0 10px;
+        padding: 10px;
+        background-color: #368276;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .logo h1 {
+        position: absolute;
+        text-transform: uppercase;
+        margin-top: 3px;
+        color: #fff;
+    }
+
+    #triangle {
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 12px solid #e86610;
     }
 
     .btn-menu {
         display: none;
     }
-    
+
+    .btn-close {
+        display: none;
+    }
+
     /*menu*/
     .menu {
         display: inline-block;
@@ -579,14 +592,15 @@ time, mark, audio, video {
         background-color: #368276;
         position: relative;
     }
-    
+
     .menu ul {
         width: 100%;
         text-align: center;
         float: left;
         position: absolute;
-        margin-top: 5px;
+        margin-top: 6px;
     }
+
     .menu li {
         display: inline-block;
         padding: 6px;
@@ -598,22 +612,27 @@ time, mark, audio, video {
     .menu li:hover {
         color: #e86610;
     }
-    
-    .btn-close {
-        display: none;
-    }
-  
+
     .btn-singin {
         display: none;
     }
 
-    .modulos{
-        width: 50%;
+    /**/
+    .start-now {
         float: left;
-
+        text-align: left;
+        margin: 50px 50px 0 50px;
+        color: #ffF;
+        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+        text-shadow: 2px 2px 4px #000000;
     }
 
-    .singin{
+    .start-now h2, p {
+        padding-left: 2%;
+        width: 60%;
+    }
+
+    .singin {
         display: inline-block;
         width: 50%;
         height: 60px;
@@ -624,8 +643,42 @@ time, mark, audio, video {
         text-shadow: #000 1PX 1PX;
     }
 
-    .singin h2, p{
+    .singin h2, p {
         margin: 3PX;
+    }
+
+    .modulos {
+        background-color: #368276;
+        top: 0;
+        clear: both;
+        margin: auto;
+        width: 50%;
+        float: left;
+    }
+
+    .cards {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card {
+        border-radius: 10px;
+        width: 30%;
+        height: 40px;
+        background-color: #e86610;
+        display: inline-block;
+    }
+
+    .card:hover {
+        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+    }
+
+    .card p {
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
     }
 
     .articles {
@@ -635,43 +688,76 @@ time, mark, audio, video {
         float: left;
         text-align: center;
     }
-    
-    .articles article{
+
+    .articles article {
         display: inline-block;
         width: 40%;
         height: 200px;
         margin: auto;
     }
-    
-    
+
     .articles img {
         width: 70%;
         float: none;
         margin-right: 5px;
     }
-    
+
     .articles h2 {
         margin-top: 0;
     }
-    
+
     #art2 {
         margin: 0;
     }
-    
-    #art2 img{
+
+    #art2 img {
         float: none;
         width: 75%;
         
     }
 
-   
+    .explain {
+        background-color: #368276;
+        color: #fff;
+        overflow: auto;
+        padding: 10px;
+        text-align: left;
+    }
 
-    
-}
-  
-@media screen and (min-width: 800px) {
-    body {
-      background-color: lavender;
+    footer {
+        margin-top: 10px;
+        color: #368276;
+        text-align: center;
+    }
+
+    .nets {
+        margin-bottom: -10px;
+    }
+
+    .redes {
+      display: inline-block;
+      width: 130px;
+      padding-top: 10px;
+    }
+
+    .redes span {
+      display: inline-block;
+      width: 30%;
+    }
+
+    .redes img {
+      width: 60%;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 1.3em;
     }
 }
 
+/* desktop
+@media (min-width: 1025px) {
+    body {
+      background-color: lavender;
+    }
+} */
