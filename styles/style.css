@@ -1,6 +1,7 @@
 /*
   verde: rgb(54,130,118) OU #368276
   laranja: rgb(232,102,16) OU #e86610
+  opção de verde escuro? #2f6f66
 */
 
 /* reset*/
@@ -78,11 +79,16 @@ time, mark, audio, video {
     }
 
     /* Página cursos.html */
+    p.modulo-box {
+        width: 120px;
+    }
+
     .top-nav {
         width: 100%;
+        min-height: 32px;
         height: fit-content;
-        margin: 0;
-        padding: 4px;
+        line-height: 32px;
+        padding: 0;
         text-align: center;
         background-color: rgb(54,130,118, 0.4);
     }
@@ -90,13 +96,14 @@ time, mark, audio, video {
     .top-nav ul li {
         text-decoration: none;
         display: inline-block;
-        padding: 2px 3px 2px 5px;
+        padding: 2px 4px 2px 4px;
     }
 
     .top-nav ul li:hover {
-        display: inline-block;
-        padding: 2px 3px 2px 5px;
-        color: rgb(54,130,118, 1);
+        /* color: rgb(145, 145, 145); */
+        /* background-color: #2f6f66; */
+        color: #fff;
+        background-color: rgb(54,130,118, 0.3);
     }
 
     article.btn-area {
@@ -108,21 +115,23 @@ time, mark, audio, video {
     }
 
     div.btn {
-        margin: auto;
-        line-height: 40px;
-        height: 40px;
-        width: 80px;
-        border: solid red 1px;
-        border-radius: 7px;
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+        border-radius: 6px;
         text-align: center;
     }
 
     div.btn:hover {
-        height: 40px;
-        width: 80px;
-        border:solid red 1px;
-        background-color: red;
-        text-align:center;
+        background-color: #2f6f66;
+        color: rgb(145, 145, 145);
     }
     /* cursos.html */
 
@@ -392,7 +401,79 @@ time, mark, audio, video {
 
     a {
         text-decoration: none;
+        color: inherit;
     }
+
+    h1.green {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin: 12px 0 12px;
+    }
+
+    h3.green {
+        display: block;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    /* Página cursos.html */
+    p.modulo-box {
+        width: 120px;
+    }
+
+    .top-nav {
+        width: 100%;
+        min-height: 32px;
+        height: fit-content;
+        line-height: 32px;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(54,130,118, 0.4);
+    }
+
+    .top-nav ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 4px 2px 4px;
+    }
+
+    .top-nav ul li:hover {
+        /* color: rgb(145, 145, 145); */
+        /* background-color: #2f6f66; */
+        color: #fff;
+        background-color: rgb(54,130,118, 0.3);
+    }
+
+    article.btn-area {
+        text-align: center;
+    }
+
+    .btn-area p {
+        margin: auto;
+    }
+
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    div.btn:hover {
+        background-color: #2f6f66;
+        color: rgb(145, 145, 145);
+    }
+    /* cursos.html */
 
     /*header*/
     .hero-banner {
@@ -656,13 +737,85 @@ time, mark, audio, video {
    body {
        background-color: #fff;
        width: 98%;
-       margin: 30px auto;
+       margin: auto;
        box-sizing: border-box;
    }
 
    a {
-        text-decoration: none;
+    text-decoration: none;
+    color: inherit;
     }
+
+    h1.green {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin: 12px 0 12px;
+    }
+
+    h3.green {
+        display: block;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    /* Página cursos.html */
+    p.modulo-box {
+        width: 120px;
+    }
+
+    .top-nav {
+        width: 100%;
+        min-height: 32px;
+        height: fit-content;
+        line-height: 32px;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(54,130,118, 0.4);
+    }
+
+    .top-nav ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 4px 2px 4px;
+    }
+
+    .top-nav ul li:hover {
+        /* color: rgb(145, 145, 145); */
+        /* background-color: #2f6f66; */
+        color: #fff;
+        background-color: rgb(54,130,118, 0.3);
+    }
+
+    article.btn-area {
+        text-align: center;
+    }
+
+    .btn-area p {
+        margin: auto;
+    }
+
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    div.btn:hover {
+        background-color: #2f6f66;
+        color: rgb(145, 145, 145);
+    }
+    /* cursos.html */
 
     /*header*/
     .hero-banner {
