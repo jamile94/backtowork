@@ -1,6 +1,7 @@
 /*
   verde: rgb(54,130,118) OU #368276
   laranja: rgb(232,102,16) OU #e86610
+  opção de verde escuro? #2f6f66
 */
 
 /* reset*/
@@ -27,7 +28,12 @@ time, mark, audio, video {
     font-family: sans-serif;
 }
 
-/* mobile */
+/* Pra textos verdes criei essa classe */
+.green {
+    color: #368276;
+}
+
+/* mobile col-sm */
 @media (max-width: 480px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
     .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
@@ -58,12 +64,7 @@ time, mark, audio, video {
         color: inherit;
     }
 
-    /* Pra textos verdes criei essa classe */
-    .green {
-        color: #368276;
-    }
-
-    h1 {
+    h1.green {
         display: block;
         font-size: 2em;
         font-weight: bold;
@@ -71,17 +72,23 @@ time, mark, audio, video {
         margin: 12px 0 12px;
     }
 
-    h3 {
+    h3.green {
         display: block;
         font-size: 100%;
         text-align: center;
     }
 
+    /* Página cursos.html */
+    p.modulo-box {
+        width: 120px;
+    }
+
     .top-nav {
         width: 100%;
-        height: 22px;
-        margin: 0;
-        padding: 4px;
+        min-height: 32px;
+        height: fit-content;
+        line-height: 32px;
+        padding: 0;
         text-align: center;
         background-color: rgb(54,130,118, 0.4);
     }
@@ -89,14 +96,44 @@ time, mark, audio, video {
     .top-nav ul li {
         text-decoration: none;
         display: inline-block;
-        padding: 2px 3px 2px 5px;
+        padding: 2px 4px 2px 4px;
     }
 
     .top-nav ul li:hover {
-        display: inline-block;
-        padding: 2px 3px 2px 5px;
-        color: rgb(54,130,118, 1);
+        /* color: rgb(145, 145, 145); */
+        /* background-color: #2f6f66; */
+        color: #fff;
+        background-color: rgb(54,130,118, 0.3);
     }
+
+    article.btn-area {
+        text-align: center;
+    }
+
+    .btn-area p {
+        margin: auto;
+    }
+
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    div.btn:hover {
+        background-color: #2f6f66;
+        color: rgb(145, 145, 145);
+    }
+    /* cursos.html */
 
     /*header*/
     .hero-banner {
@@ -246,7 +283,9 @@ time, mark, audio, video {
     .card {
         border-radius: 10px;
         width: 30%;
-        height: 40px;
+        min-height: 40px;
+        height: fit-content;
+        line-height: 40px;
         background-color: #e86610;
         display: inline-block;
     }
@@ -258,7 +297,7 @@ time, mark, audio, video {
     .card p {
         color: #fff;
         text-align: center;
-        margin-top: 10px;
+        margin: auto;
     }
 
     .articles {
@@ -334,7 +373,7 @@ time, mark, audio, video {
     }
 }
 
-/* tablet */
+/* tablet -- col-md */
 @media (min-width: 481px) and (max-width: 767px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
     .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -362,7 +401,79 @@ time, mark, audio, video {
 
     a {
         text-decoration: none;
+        color: inherit;
     }
+
+    h1.green {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin: 12px 0 12px;
+    }
+
+    h3.green {
+        display: block;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    /* Página cursos.html */
+    p.modulo-box {
+        width: 120px;
+    }
+
+    .top-nav {
+        width: 100%;
+        min-height: 32px;
+        height: fit-content;
+        line-height: 32px;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(54,130,118, 0.4);
+    }
+
+    .top-nav ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 4px 2px 4px;
+    }
+
+    .top-nav ul li:hover {
+        /* color: rgb(145, 145, 145); */
+        /* background-color: #2f6f66; */
+        color: #fff;
+        background-color: rgb(54,130,118, 0.3);
+    }
+
+    article.btn-area {
+        text-align: center;
+    }
+
+    .btn-area p {
+        margin: auto;
+    }
+
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    div.btn:hover {
+        background-color: #2f6f66;
+        color: rgb(145, 145, 145);
+    }
+    /* cursos.html */
 
     /*header*/
     .hero-banner {
@@ -513,7 +624,9 @@ time, mark, audio, video {
    .card {
        border-radius: 10px;
        width: 30%;
-       height: 40px;
+       min-height: 40px;
+       height: fit-content;
+       line-height: 40px;
        background-color: #e86610;
        display: inline-block;
    }
@@ -525,7 +638,7 @@ time, mark, audio, video {
    .card p {
        color: #fff;
        text-align: center;
-       margin-top: 10px;
+       margin: auto;
    }
 
     /**************/
@@ -602,7 +715,7 @@ time, mark, audio, video {
     }
 }
 
-/* tablet virado */
+/* tablet virado -- col-lg */
 @media (min-width: 768px) /*and (max-width: 1024px)*/ {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
     .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -624,13 +737,85 @@ time, mark, audio, video {
    body {
        background-color: #fff;
        width: 98%;
-       margin: 30px auto;
+       margin: auto;
        box-sizing: border-box;
    }
 
    a {
-        text-decoration: none;
+    text-decoration: none;
+    color: inherit;
     }
+
+    h1.green {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin: 12px 0 12px;
+    }
+
+    h3.green {
+        display: block;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    /* Página cursos.html */
+    p.modulo-box {
+        width: 120px;
+    }
+
+    .top-nav {
+        width: 100%;
+        min-height: 32px;
+        height: fit-content;
+        line-height: 32px;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(54,130,118, 0.4);
+    }
+
+    .top-nav ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 4px 2px 4px;
+    }
+
+    .top-nav ul li:hover {
+        /* color: rgb(145, 145, 145); */
+        /* background-color: #2f6f66; */
+        color: #fff;
+        background-color: rgb(54,130,118, 0.3);
+    }
+
+    article.btn-area {
+        text-align: center;
+    }
+
+    .btn-area p {
+        margin: auto;
+    }
+
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    div.btn:hover {
+        background-color: #2f6f66;
+        color: rgb(145, 145, 145);
+    }
+    /* cursos.html */
 
     /*header*/
     .hero-banner {
@@ -688,6 +873,7 @@ time, mark, audio, video {
         left: 100px;
         background-color: #368276;
         position: relative;
+        line-height: 25px;
     }
 
     .menu ul {
@@ -763,7 +949,9 @@ time, mark, audio, video {
     .card {
         border-radius: 10px;
         width: 30%;
-        height: 40px;
+        min-height: 40px;
+        height: fit-content;
+        line-height: 40px;
         background-color: #e86610;
         display: inline-block;
     }
@@ -775,7 +963,7 @@ time, mark, audio, video {
     .card p {
         color: #fff;
         text-align: center;
-        margin-top: 10px;
+        margin: auto;
     }
 
     .articles {
