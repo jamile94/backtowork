@@ -1,105 +1,159 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a520ec197c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
   <title>Back to Work</title>
-  <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 </head>
 
 <body>
-  <div id="principal">
-    <header class="header-top">
-      <!--O header/nav bar serão substituídos por um template?-->
-      <h1>Back to Work</h1>
-      <nav>
-        <ul>
-          <a href="#" >
-            <li class="active">Home</li>
-          </a>
-          <a href="./modulos/modulos.html"  >
-            <li>Módulos</li>
-          </a>
-          <a href="./about.html">
-            <li>Quem somos</li>
-          </a>
-          <a href="#">
-            <li>Depoimentos</li>
-            <!--Talvez isso nem exista por enquanto?-->
-          </a>
-          <a href="#">
-            <li>Contatos</li>
-          </a>
-        </ul>
-      </nav>
+  <header class="hero-banner">
+    <div class="logo">
+      <div id="triangle"></div>
+      <a href="#">
+        <h1>back to work</h1>
+      </a>
+    </div>
 
-      <div class="banner">
-        <div class="banner-content">
-          <p>se destaque no processo seletivo</p>
-          <h2>Conquiste o emprego desejado</h2>
-        </div>
+    <button class="btn-menu">
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <nav class="menu">
+      <a href="index.html" class="btn-close">x</a>
+      <ul>
+        <a href="#">
+          <li>O projeto</li>
+        </a>
+        <a href="#">
+          <li>Quem somos</li>
+        </a>
+        <a href="#">
+          <li>Cursos</li>
+        </a>
+        <a href="#">
+          <li>Contatos</li>
+        </a>
+      </ul>
+    </nav>
 
-        <div class="btn">
-          <button class="start"><a href="./modulos/modolo_01.html">Quero começar o curso!</a></button>
-        </div>
-        
-        
+    <a href="">
+      <div class="start-now">
+        <h2>Conheça o Projeto Back to Work</h2>
+        <p>comece nosso curso agora</p>
       </div>
-
-    </header>
-    <main class="cards">
-      <div class="card card1">
-        <img src="./assets/imgs/card_01.png" alt="">
-        <h2>Capacitação</h2>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <a href=""><button class="tellme">Saber mais</button></a>
-      </div>
-      <div class="card card2">
-        <img src="./assets/imgs/card_02.jpg" alt="">
-        <h2>Capacitação</h2>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <a href=""><button class="tellme">Saber mais</button></a>
-      </div>
-      <div class="card card3">
-        <img src="./assets/imgs/card_03.jpg" alt="">
-        <h2>Capacitação</h2>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <a href=""><button class="tellme">Saber mais</button></a>
-      </div>
-    </main>
+    </a>
 
 
-    <footer id="footer-end">
-      <p>telefone:(55) 12344 - 5678 |</p>
-      <p>Email: contato@backtowork |</p>
-      <p>
-        Redes sociais:
+    <a href="" class="btn-singin">
+      <div class="div-singin">
+        <p>Cadastre-se no nosso site</p>
+      </div>
+    </a>
+  </header>
+
+  <main>
+    <section class="singin">
+      <h2>Cadaste-se no nosso
+        site!</h2>
+      <p>comece nossos curso agora!</p>
+    </section>
+
+    <section class="modulos">
+      <div class="cards">
+
+        <a href="">
+          <div class="card">
+            <p>Módulo 1</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <p>Módulo 2</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <p>Módulo 3</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="articles">
+      <article id="art1">
+        <img src="./images/pessoas-trabalhando.jpg" alt="pessoas trabalhando">
+        <p>Se destaque no processo seletivo e...</p>
+        <h2>Conquiste o emprego desejado!</h2>
+      </article>
+      <article id="art2">
+        <img src="./images/linkedinimg.webp" alt="pessoas trabalhando">
+        <p>Se destaque no processo seletivo e...</p>
+        <h2>Conquiste o emprego desejado!</h2>
+      </article>
+    </section>
+
+    <section class="explain">
+      <p>Curso Online
+        Back to Work!
       </p>
+      <p>Hacks práticos para processos seletivos
+        O curso online BTW, quer fazer você se destacar em processos seletivos e entrevistas de emprego</p>
+      <p>
+        No curso, visitamos pontos como:
+      </p>
+      <ol>
+        <li>Carreira e Propósito; Dados: RH em tempos de recessão; O profissional do futuro; Networking; O papel do dinheiro.
+        </li>
+        <li>Linkedin x Curriculum; Não basta estar, tem que usar: construindo um perfil campeão no Linkedin.</li>
+        <li>Pré Processo Seletivo: O Estudo prévio de Mercado; Empresa; CEO; Competências; Valores.</li>
+        <li>Desmitificando o RH: O que realmente esperam de um candidato?</li>
+        <li>O processo seletivo: Como lidar com perguntas selecionadas: Teste inicial; RH; Gestor, Diretor; Simulação da job.</li>
+        <li>Cases de Sucesso.</li>
+        <liFinalização.</li>
+      </ol>
 
-      <div class="redes">
-        <span>
-          <a href="">
-            <img src="./assets/imgs/Facebook.png" alt="">
-          </a>
-        </span>
-        <span>
-          <a href="">
-            <img src="./assets/imgs/twitter.png" alt="">
-          </a>
-        </span>
-        <span>
-          <a href="">
-            <img src="./assets/imgs/youtube.png" alt="">
-          </a>
-        </span>
-      </div>
-        
-    </footer>
-  </div>
+    </section>
+  </main>
 
+  <footer>
+    <p>Telefone:(55) 12344 - 5678 </p>
+    <p>Email: contato@backtowork </p>
+    <p class="nets">
+      Redes sociais:
+    </p>
+
+    <div class="redes">
+      <span>
+        <a href="">
+          <img src="./images/Facebook.png" alt="">
+        </a>
+      </span>
+      <span>
+        <a href="">
+          <img src="./images/twitter.png" alt="">
+        </a>
+      </span>
+      <span>
+        <a href="">
+          <img src="./images/youtube.png" alt="">
+        </a>
+      </span>
+    </div>
+      
+  </footer>
+
+
+  <script src="./scripts/menu.js">
+
+  </script>
 </body>
 
 </html>

@@ -1,0 +1,677 @@
+/* reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: #fff;
+        width: 98%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    /*header*/
+    .hero-banner {
+        width: 100%;
+        height: 250px;
+        background-image: url(../images/hero-banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        padding: 2% 0;
+        bottom: 0;
+    }
+    
+        
+    
+    .logo{
+        width: 33%;
+        height: 25px;
+        float: left;
+        margin: 0 10px;
+        padding: 10px;
+        background-color: #368276;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .logo h1 {
+        position: absolute;
+        text-transform: uppercase;
+        margin-top: 3px;
+        color: #fff;
+        
+    }
+    
+    #triangle {
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 12px solid #e86610;
+    }
+    
+    .btn-menu {
+        width: 45px;
+        height: 45px;
+        float: right;
+        margin-right: 3%;
+        background-color: #368276;
+        text-align: center;
+        border-radius: 45px;
+        color: #fff;
+        cursor: pointer;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    /*menu*/
+    .menu {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.9);
+        top: 0;
+        left: 0;
+    }
+    
+    .menu ul {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .menu li {
+        padding: 1%;
+        font-size: 2em;
+        color: #fff;
+    }
+    
+    .menu li:hover{
+        border: 2px solid #e86610;
+        color: #368276;
+    }
+    
+    .btn-close {
+        font-size: 3em;
+        color: #fff;
+        float: right;
+        cursor: pointer;
+        margin-right: 5%;
+    }
+    
+    /**/
+    .start-now {
+        float: left;
+        text-align: left;
+        margin: 50px 50px 0 50px;
+        color: #ffF;
+        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .start-now h2, p{
+        padding-left: 2%;
+    }
+    
+    .div-singin {
+        float: left;
+        text-align: left;
+        margin: 20px 0 10px 100px;
+        background-color: #368276;
+        text-shadow: 2px 2px 4px #000000;
+        box-shadow: 2px 2px #888888;
+    }
+    
+    .div-singin p{
+        padding: 5px;
+    }
+    
+    .btn-singin{
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .div-singin:hover{
+        background-color: rgb(7, 90, 90);
+    }
+    
+    /*main*/
+    
+    .singin {
+         display: none;
+         clear: both;
+    }
+    
+    .modulos {
+        background-color: #368276;
+        top: 0;
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .cards {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    
+    .card {
+        width: 30%;
+        height: 40px;
+        background-color: #e86610;
+        display: inline-block;
+    }
+    
+    .card:hover {
+        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+    }
+    
+    .card p{
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    
+    .articles {
+        margin: 10px 0;
+        width: 100%;
+        color: #368276;
+    }
+    
+    .articles article{
+        padding: 10px;
+    }
+    
+    
+    .articles img {
+        width: 50%;
+        float: left;
+        margin-right: 5px;
+    }
+    
+    .articles h2 {
+        margin-top: 20px;
+    }
+    
+    #art2 {
+        margin: 10px;
+        clear: both;
+        margin-right: 5px;
+    }
+    
+    #art2 img{
+        float: right;
+    }
+    
+    .explain {
+        background-color: #368276;
+        color: #fff;
+        overflow: auto;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    footer {
+        margin-top: 10px;
+        color: #368276;
+        text-align: center;
+    }
+    .nets{
+        margin-bottom: -10px;
+    }
+    .redes{
+      display: inline-block;
+      width: 130px;
+      padding-top: 10px;
+    }
+    
+    .redes span{
+      display: inline-block;
+      width: 30%;
+    }
+    .redes img {
+      width: 60%;
+      margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+}
+
+
+@media screen and (min-width: 400px){
+    body {
+        background-color: #fff;
+        width: 98%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    /*header*/
+    .hero-banner {
+        width: 100%;
+        height: 220px;
+        background-image: url(../images/hero-banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        padding: 2% 0;
+        bottom: 0;
+    }
+    
+        
+    
+    .logo{
+        width: 30%;
+        height: 25px;
+        float: left;
+        margin: 0 10px;
+        padding: 10px;
+        background-color: #368276;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .logo h1 {
+        position: absolute;
+        text-transform: uppercase;
+        margin-top: 3px;
+        color: #fff;
+        
+    }
+    
+    #triangle {
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 12px solid #e86610;
+    }
+    
+    .btn-menu {
+        width: 45px;
+        height: 45px;
+        float: right;
+        margin-right: 3%;
+        background-color: #368276;
+        text-align: center;
+        border-radius: 45px;
+        color: #fff;
+        cursor: pointer;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    /*menu*/
+    .menu {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.9);
+        top: 0;
+        left: 0;
+    }
+    
+    .menu ul {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .menu li {
+        padding: 1px;
+        border: 100px;
+        font-size: 2em;
+        color: #fff;
+    }
+    
+    .menu li:hover{
+        color: #368276;
+    }
+    
+    .btn-close {
+        font-size: 3em;
+        color: #fff;
+        float: right;
+        cursor: pointer;
+        margin-right: 5%;
+    }
+    
+    /**/
+    .start-now {
+        float: left;
+        text-align: left;
+        margin: 50px 50px 0 50px;
+        color: #ffF;
+        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .start-now h2{
+        width: 60%;
+    
+    }
+    
+    .div-singin {
+        float: left;
+        text-align: left;
+        margin: 20px 0 10px 100px;
+        background-color: #368276;
+        text-shadow: 2px 2px 4px #000000;
+        box-shadow: 2px 2px #888888;
+    }
+    
+    .div-singin p{
+        padding: 5px;
+    }
+    
+    .btn-singin{
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .div-singin:hover{
+        background-color: rgb(7, 90, 90);
+    }
+    
+    /*main*/
+    
+    .singin {
+         display: none;
+         clear: both;
+    }
+    
+    .modulos {
+        background-color: #368276;
+        top: 0;
+        clear: both;
+        width: 100%;
+        margin: auto;
+    }
+
+    .cards {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    
+    .card {
+        border-radius: 10px;
+        width: 30%;
+        height: 40px;
+        background-color: #e86610;
+        display: inline-block;
+    }
+    
+    .card:hover {
+        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+    }
+    
+    .card p{
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    
+    .articles {
+        margin: 10px 0;
+        width: 100%;
+        color: #368276;
+    }
+    
+    .articles article{
+        padding: 10px;
+    }
+    
+    
+    .articles img {
+        width: 50%;
+        float: left;
+        margin-right: 5px;
+    }
+    
+    .articles h2 {
+        margin-top: 20px;
+    }
+    
+    #art2 {
+        margin: 10px;
+        clear: both;
+        margin-right: 5px;
+    }
+    
+    #art2 img{
+        float: right;
+    }
+    
+    .explain {
+        background-color: #368276;
+        color: #fff;
+        overflow: auto;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    footer {
+        margin-top: 10px;
+        color: #368276;
+        text-align: center;
+    }
+    .nets{
+        margin-bottom: -10px;
+    }
+    .redes{
+      display: inline-block;
+      width: 130px;
+      padding-top: 10px;
+    }
+    
+    .redes span{
+      display: inline-block;
+      width: 30%;
+    }
+    .redes img {
+      width: 60%;
+      margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .articles {
+        margin: 10px auto;
+        width: 100%;
+        color: #368276;
+        float: left;
+        text-align: center;
+    }
+    
+    .articles article{
+        display: inline-block;
+        width: 40%;
+        height: 200px;
+        margin: auto;
+    }
+    
+    
+    .articles img {
+        width: 70%;
+        float: none;
+        margin-right: 5px;
+    }
+    
+    .articles h2 {
+        margin-top: 0;
+    }
+    
+    #art2 {
+        margin: 0;
+    }
+    
+    #art2 img{
+        float: none;
+        width: 75%;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+   body {
+     box-sizing: border-box;
+     margin: 30px auto;
+   }
+
+    .logo{
+        width: 18%;
+        float: left;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+    
+    /*menu*/
+    .menu {
+        display: inline-block;
+        border-radius: 10px;
+        width: 60%;
+        height: 50px;
+        top: -3px;
+        left: 100px;
+        background-color: #368276;
+        position: relative;
+    }
+    
+    .menu ul {
+        width: 100%;
+        text-align: center;
+        float: left;
+        position: absolute;
+        margin-top: 5px;
+    }
+    .menu li {
+        display: inline-block;
+        padding: 6px;
+        border: transparent 0px;
+        font-size: 1.3em;
+        color: #fff;
+    }
+
+    .menu li:hover {
+        color: #e86610;
+    }
+    
+    .btn-close {
+        display: none;
+    }
+  
+    .btn-singin {
+        display: none;
+    }
+
+    .modulos{
+        width: 50%;
+        float: left;
+
+    }
+
+    .singin{
+        display: inline-block;
+        width: 50%;
+        height: 60px;
+        padding: 5px;
+        background-color: #e86610;
+        box-sizing: border-box;
+        color: #fff;
+        text-shadow: #000 1PX 1PX;
+    }
+
+    .singin h2, p{
+        margin: 3PX;
+    }
+
+    .articles {
+        margin: 10px auto;
+        width: 100%;
+        color: #368276;
+        float: left;
+        text-align: center;
+    }
+    
+    .articles article{
+        display: inline-block;
+        width: 40%;
+        height: 200px;
+        margin: auto;
+    }
+    
+    
+    .articles img {
+        width: 70%;
+        float: none;
+        margin-right: 5px;
+    }
+    
+    .articles h2 {
+        margin-top: 0;
+    }
+    
+    #art2 {
+        margin: 0;
+    }
+    
+    #art2 img{
+        float: none;
+        width: 75%;
+        
+    }
+
+   
+
+    
+}
+  
+@media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+}
+
