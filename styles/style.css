@@ -127,6 +127,7 @@ time, mark, audio, video {
         line-height: 65px;
         border-radius: 6px;
         text-align: center;
+        cursor: pointer;
     }
 
     div.btn:hover {
@@ -467,6 +468,7 @@ time, mark, audio, video {
         line-height: 65px;
         border-radius: 6px;
         text-align: center;
+        cursor: pointer;
     }
 
     div.btn:hover {
@@ -809,6 +811,7 @@ time, mark, audio, video {
         line-height: 65px;
         border-radius: 6px;
         text-align: center;
+        cursor: pointer;
     }
 
     div.btn:hover {
