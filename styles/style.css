@@ -371,6 +371,11 @@ time, mark, audio, video {
     h2 {
         font-size: 1.3em;
     }
+    /*login*/
+    h1{
+        text-align: center;
+        color: #368276;
+    }
 }
 
 /* tablet -- col-md */
@@ -713,6 +718,11 @@ time, mark, audio, video {
     h2 {
         font-size: 1.3em;
     }
+    /*login*/
+    h1{
+        text-align: center;
+        color: #368276;
+    }
 }
 
 /* tablet virado -- col-lg */
@@ -1037,6 +1047,11 @@ time, mark, audio, video {
 
     h2 {
         font-size: 1.3em;
+    }
+    /*login*/
+    h1{
+        text-align: center;
+        color: #368276;
     }
 }
 
