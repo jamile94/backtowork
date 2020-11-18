@@ -100,8 +100,6 @@ time, mark, audio, video {
     }
 
     .top-nav ul li:hover {
-        /* color: rgb(145, 145, 145); */
-        /* background-color: #2f6f66; */
         color: #fff;
         background-color: rgb(54,130,118, 0.3);
     }
@@ -120,11 +118,13 @@ time, mark, audio, video {
         font-weight: bold;
         padding: 3px;
         margin: 65px auto 10px;
+
         width: fit-content;
         min-width: 80px;
         height: fit-content;
         min-height: 65px;
         line-height: 65px;
+
         border-radius: 6px;
         text-align: center;
         cursor: pointer;
@@ -134,6 +134,18 @@ time, mark, audio, video {
         background-color: #2f6f66;
         color: rgb(145, 145, 145);
     }
+
+    #backtriangle {
+        z-index: -1;
+        position: absolute;
+        width: 0;
+        height: 0; 
+        border-top: 20em solid rgb(54,130,118, 0.1);
+        border-bottom: 20em solid transparent;
+        border-left: 77vw solid transparent;
+        border-right: 25vw solid rgb(54,130,118, 0.2);
+    }
+
     /* cursos.html */
 
     /*header*/
@@ -441,8 +453,6 @@ time, mark, audio, video {
     }
 
     .top-nav ul li:hover {
-        /* color: rgb(145, 145, 145); */
-        /* background-color: #2f6f66; */
         color: #fff;
         background-color: rgb(54,130,118, 0.3);
     }
@@ -461,6 +471,7 @@ time, mark, audio, video {
         font-weight: bold;
         padding: 3px;
         margin: 65px auto 10px;
+
         width: fit-content;
         min-width: 80px;
         height: fit-content;
@@ -475,6 +486,18 @@ time, mark, audio, video {
         background-color: #2f6f66;
         color: rgb(145, 145, 145);
     }
+
+    #backtriangle {
+        z-index: -1;
+        position: absolute;
+        width: 0;
+        height: 0; 
+        border-top: 20em solid rgb(54,130,118, 0.1);
+        border-bottom: 20em solid transparent;
+        border-left: 77vw solid transparent;
+        border-right: 25vw solid rgb(54,130,118, 0.2);
+    }
+
     /* cursos.html */
 
     /*header*/
@@ -784,8 +807,6 @@ time, mark, audio, video {
     }
 
     .top-nav ul li:hover {
-        /* color: rgb(145, 145, 145); */
-        /* background-color: #2f6f66; */
         color: #fff;
         background-color: rgb(54,130,118, 0.3);
     }
@@ -804,11 +825,13 @@ time, mark, audio, video {
         font-weight: bold;
         padding: 3px;
         margin: 65px auto 10px;
+
         width: fit-content;
-        min-width: 80px;
+        min-width: 60%;
         height: fit-content;
-        min-height: 65px;
-        line-height: 65px;
+        min-height: 140px;
+        line-height: 140px;
+
         border-radius: 6px;
         text-align: center;
         cursor: pointer;
@@ -817,6 +840,17 @@ time, mark, audio, video {
     div.btn:hover {
         background-color: #2f6f66;
         color: rgb(145, 145, 145);
+    }
+
+    #backtriangle {
+        z-index: -1;
+        position: absolute;
+        width: 0;
+        height: 0; 
+        border-top: 20vw solid rgb(54,130,118, 0.1);
+        border-bottom: 20vw solid transparent;
+        border-left: 77vw solid transparent;
+        border-right: 25vw solid rgb(54,130,118, 0.2);
     }
     /* cursos.html */
 
