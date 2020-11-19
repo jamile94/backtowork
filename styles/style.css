@@ -78,7 +78,7 @@ time, mark, audio, video {
         text-align: center;
     }
 
-    /* Página cursos.html */
+    /* Página cursos.html*
     p.modulo-box {
         width: 120px;
     }
@@ -100,8 +100,8 @@ time, mark, audio, video {
     }
 
     .top-nav ul li:hover {
-        /* color: rgb(145, 145, 145); */
-        /* background-color: #2f6f66; */
+        /* color: rgb(145, 145, 145); *
+        /* background-color: #2f6f66; *
         color: #fff;
         background-color: rgb(54,130,118, 0.3);
     }
@@ -222,7 +222,7 @@ time, mark, audio, video {
         margin-right: 5%;
     }
 
-    /**/
+    /**
     .start-now {
         float: left;
         text-align: left;
@@ -258,8 +258,8 @@ time, mark, audio, video {
     .div-singin:hover {
         background-color: rgb(7, 90, 90);
     }
-
-    /*main*/
+    /
+    *main/
     .singin {
          display: none;
          clear: both;
@@ -341,7 +341,7 @@ time, mark, audio, video {
         padding: 10px;
         text-align: left;
     }
-
+    */
     footer {
         margin-top: 10px;
         color: #368276;
@@ -375,6 +375,23 @@ time, mark, audio, video {
     h1{
         text-align: center;
         color: #368276;
+    }
+    .dados{
+        display: flex;
+        flex-direction: column;
+    }
+    #space{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .entrar{
+        display: flex;
+        flex-flow: row wrap;
+        border: 1px solid red;
+    }
+    .botao{
+        order: 1;
+        justify-content: center;
     }
 }
 
