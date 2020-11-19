@@ -78,7 +78,7 @@ time, mark, audio, video {
         text-align: center;
     }
 
-    /* Página cursos.html*
+    /* Página cursos.html*/
     p.modulo-box {
         width: 120px;
     }
@@ -222,7 +222,7 @@ time, mark, audio, video {
         margin-right: 5%;
     }
 
-    /**
+    /**/
     .start-now {
         float: left;
         text-align: left;
@@ -258,8 +258,7 @@ time, mark, audio, video {
     .div-singin:hover {
         background-color: rgb(7, 90, 90);
     }
-    /
-    *main/
+    /*main*/
     .singin {
          display: none;
          clear: both;
@@ -341,7 +340,6 @@ time, mark, audio, video {
         padding: 10px;
         text-align: left;
     }
-    */
     footer {
         margin-top: 10px;
         color: #368276;
