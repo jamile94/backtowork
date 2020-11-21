@@ -391,13 +391,23 @@ time, mark, audio, video {
         display: flex;
         flex-direction: column;
     }
-    .form-e{
+    .form-s{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
     .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input{
+        background-color: rgba(255,255,255,0);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .orietation{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -745,9 +755,55 @@ time, mark, audio, video {
         font-size: 1.3em;
     }
     /*login*/
-    h1{
+    #login{
+        background-color: #d1d1d1;
+    }
+    h1, h2{
         text-align: center;
         color: #368276;
+    }
+    .dados{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #space{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .botao{
+        order: 1;
+        justify-content: center;
+    }
+    .cadastro, .entrar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .entrar{
+        border-right: 1px solid #000;
+        padding-right: 10px;
+    }
+    .form-s{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input{
+        background-color: rgba(255,255,255,0);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .orietation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -1075,9 +1131,58 @@ time, mark, audio, video {
         font-size: 1.3em;
     }
     /*login*/
-    h1{
+    #login{
+        background-color: #d1d1d1;
+    }
+    h1, h2{
         text-align: center;
         color: #368276;
+    }
+    .dados{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #space{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .botao{
+        order: 1;
+        align-self: center;
+    }
+    .cadastro, .entrar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .entrar{
+        padding-right: 30px;
+    }
+    .cadastro{
+        border-left: 1px solid #000;
+        padding-left: 30px;
+    }
+    .form-l{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input{
+        background-color: rgba(255,255,255,0);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .orietation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 

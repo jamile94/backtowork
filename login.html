@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/a520ec197c.js" crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
-<body>
+<body id="login">
     <header>
         <div class="logo">
             <div id="triangle"></div>
@@ -42,34 +42,45 @@
       <div id="space"></div>
         <h1 class="green">Login</h1>
         <div class="dados">
-          <section class="entrar">
+          <section class="entrar col-lg-4 col-md-4">
             <h2>Já tem cadastro?</h2>
-            <form class="form-e">
+            <form class="form-s form-l">
+              <div class="orietation col-lg-12">
                 <label for="emailc">Email:</label>
-                <input type="email" name="emailc" id="emailc">
+                <input type="email" class="input col-lg-9 col-md-12" name="emailc" id="emailc">
+              </div>
+              <div class="orietation col-lg-12">
                 <label for="senhac">Senha:</label>
-                <input type="password" name="senha" id="senha">
+                <input type="password" class="input col-lg-9 col-md-12" name="senha" id="senha">
+              </div>
                 <input type="submit" value="Entrar" class="botao">
             </form>
         </section>
-        <section class="cadastro">
+        <section class="cadastro col-lg-8 col-md-8">
             <h2>Cadastre-se gratuitamente</h2>
-            <form class="form-e">
+            <form class="form-s form-l">
+              <div class="orietation col-lg-12">
                 <label for="name">Nome Completo:</label>
-                <input type="text" name="name" id="name">
+                <input type="text" class="input col-lg-9" name="name" id="name">
+              </div>
+              <div class="orietation col-lg-12">
                 <label for="local">Endereço:</label>
-                <input type="text" name="local" id="local">
+                <input type="text" class="input col-lg-9" name="local" id="local">
+              </div>
+              <div class="orietation col-lg-12">
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
+                <input type="email" class="input col-lg-9" name="email" id="email">
+              </div>  
+              <div class="orietation col-lg-12">
                 <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha">
-                <label for="confirm">Confirmar senha:</label>
-                <input type="password" name="confirm" id="confirm">
+                <input type="password" class="input col-lg-9" name="senha" id="senha">
+              </div>
+                <!--<label for="confirm">Confirmar senha:</label>
+                <input type="password" name="confirm" id="confirm">-->
                 <input type="submit" value="Cadastrar" class="botao">
             </form>
         </section>
-        </div>
-        
+        </div> 
         <footer>
           <div class="text">
             <p>Telefone:(55) 12344 - 5678 </p>
