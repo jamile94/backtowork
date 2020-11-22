@@ -423,6 +423,24 @@ time, mark, audio, video {
         flex-direction: column;
         align-items: center;
     }
+    #tr-1 {
+        position: absolute;
+        bottom: 0;
+        width: 0; 
+        height: 0; 
+        border-bottom: 200px solid transparent;
+        border-top: 200px solid transparent;
+        border-left: 200px solid #3682773a;
+    }
+    #tr-2 {
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-bottom: 200px solid #47c5b23a
+      }
 }
 
 /* tablet -- col-md */
@@ -738,6 +756,7 @@ time, mark, audio, video {
 
     footer {
         margin-top: 10px;
+        padding-top: 100px;
         color: #368276;
         text-align: center;
     }
@@ -802,6 +821,7 @@ time, mark, audio, video {
     .entrar{
         border-right: 1px solid #000;
         padding-right: 10px;
+        padding-left: 20px;
     }
     .form-s{
         display: flex;
@@ -824,6 +844,24 @@ time, mark, audio, video {
         flex-direction: column;
         align-items: center;
     }
+    #tr-1 {
+        position: absolute;
+        bottom: 0;
+        width: 0; 
+        height: 0; 
+        border-bottom: 200px solid transparent;
+        border-top: 200px solid transparent;
+        border-left: 200px solid #3682773a;
+    }
+    #tr-2 {
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-bottom: 200px solid #47c5b23a
+      }
 }
 
 /* tablet virado -- col-lg */
@@ -1122,6 +1160,7 @@ time, mark, audio, video {
 
     footer {
         margin-top: 10px;
+        padding-top: 150px;
         color: #368276;
         text-align: center;
     }
@@ -1218,6 +1257,25 @@ time, mark, audio, video {
         flex-direction: row;
         justify-content: space-between;
     }
+    #tr-1 {
+        position: absolute;
+        bottom: 0;
+        width: 0; 
+        height: 0; 
+        border-bottom: 250px solid transparent;
+        border-top: 250px solid transparent;
+        border-left: 250px solid #3682773a;
+      }
+      #tr-2 {
+          position: absolute;
+          bottom: 0;
+          width: 0;
+          height: 0;
+          border-left: 250px solid transparent;
+          border-right: 250px solid transparent;
+          border-bottom: 250px solid #47c5b23a
+      }
+      
 }
 
 /* desktop
