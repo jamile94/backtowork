@@ -383,6 +383,29 @@ time, mark, audio, video {
     h2 {
         font-size: 1.3em;
     }
+
+    .video-list{
+        margin: 1% 0 1% 0;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .video-list button{
+        margin: 1% 1px 0 0;
+        box-sizing: border-box;
+        border:2px solid #347D6C;
+        border-radius: 5px;
+        background-color: #fff;
+
+    }
+
+    .video-list button:hover{
+        background-color: #347D6C;
+    }
+
+    .video iframe{
+        height: 300px;
+    }
 }
 
 /* tablet -- col-md */
@@ -736,6 +759,28 @@ time, mark, audio, video {
     h2 {
         font-size: 1.3em;
     }
+    .video-list{
+        margin: 1% 0 1% 0;
+        height: 200px;
+        overflow: auto;
+    }
+    
+    .video-list button{
+        margin: 1% 1px 0 0;
+        box-sizing: border-box;
+        border:2px solid #347D6C;
+        border-radius: 5px;
+        background-color: #fff;
+    
+    }
+    
+    .video-list button:hover{
+        background-color: #347D6C;
+    }
+    
+    .video iframe{
+        height: 300px;
+    }
 }
 
 /* tablet virado -- col-lg */
@@ -1072,6 +1117,42 @@ time, mark, audio, video {
 
     h2 {
         font-size: 1.3em;
+    }
+
+    .video-list{
+        margin: 1% 0 1% 0;
+        height: 400px;
+        overflow: auto;
+    }
+    
+    .video-list button{
+        margin: 1% 10px 10% 10px;
+        height: 30px;
+        box-sizing: border-box;
+        border:2px solid #347D6C;
+        border-radius: 5px;
+        background-color: #fff;
+    
+    }
+    
+    .video-list button:hover{
+        border:2px solid #347D6C;
+        background-color: #347D6C;
+    
+    }
+
+    .video-list button.checked{
+        background-color: #347D6C;
+        border:2px solid #347D6C;
+    
+    }
+
+    .video{
+        margin: 1% 0;
+    }
+    
+    .video iframe{
+        height: 400px;
     }
 }
 
