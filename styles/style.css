@@ -345,6 +345,7 @@ time, mark, audio, video {
         color: #368276;
         text-align: center;
     }
+    
 
     .nets {
         margin-bottom: -10px;
@@ -370,7 +371,10 @@ time, mark, audio, video {
         font-size: 1.3em;
     }
     /*login*/
-    h1{
+    #login{
+        background-color: #d1d1d1;
+    }
+    .titulo{
         text-align: center;
         color: #368276;
     }
@@ -382,15 +386,61 @@ time, mark, audio, video {
         padding-top: 30px;
         padding-bottom: 5px;
     }
-    .entrar{
-        display: flex;
-        flex-flow: row wrap;
-        border: 1px solid red;
-    }
     .botao{
         order: 1;
-        justify-content: center;
+        align-self: center;
+        justify-self: end;
+        background-color: rgba(255,255,255,0);
+        color: #368276;
+        border-radius: 10px;
     }
+    .botao:active{
+        background-color: #368276;
+        color: #e86610;
+    }
+    .cadastro, .entrar{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-s{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input{
+        background-color: rgba(255,255,255,0);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .orietation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #tr-1 {
+        position: absolute;
+        bottom: 0;
+        width: 0; 
+        height: 0; 
+        border-bottom: 200px solid transparent;
+        border-top: 200px solid transparent;
+        border-left: 200px solid #3682773a;
+    }
+    #tr-2 {
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-bottom: 200px solid #47c5b23a
+      }
 }
 
 /* tablet -- col-md */
@@ -706,6 +756,7 @@ time, mark, audio, video {
 
     footer {
         margin-top: 10px;
+        padding-top: 100px;
         color: #368276;
         text-align: center;
     }
@@ -734,10 +785,83 @@ time, mark, audio, video {
         font-size: 1.3em;
     }
     /*login*/
-    h1{
+    #login{
+        background-color: #d1d1d1;
+    }
+    .titulo{
         text-align: center;
         color: #368276;
     }
+    .dados{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #space{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .botao{
+        order: 1;
+        align-self: center;
+        justify-self: end;
+        background-color: rgba(255,255,255,0);
+        color: #368276;
+        border-radius: 10px;
+    }
+    .botao:active{
+        background-color: #368276;
+        color: #e86610;
+    }
+    .cadastro, .entrar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .entrar{
+        border-right: 1px solid #000;
+        padding-right: 10px;
+        padding-left: 20px;
+    }
+    .form-s{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input{
+        background-color: rgba(255,255,255,0);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .orietation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #tr-1 {
+        position: absolute;
+        bottom: 0;
+        width: 0; 
+        height: 0; 
+        border-bottom: 200px solid transparent;
+        border-top: 200px solid transparent;
+        border-left: 200px solid #3682773a;
+    }
+    #tr-2 {
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-bottom: 200px solid #47c5b23a
+      }
 }
 
 /* tablet virado -- col-lg */
@@ -1036,6 +1160,7 @@ time, mark, audio, video {
 
     footer {
         margin-top: 10px;
+        padding-top: 150px;
         color: #368276;
         text-align: center;
     }
@@ -1064,10 +1189,93 @@ time, mark, audio, video {
         font-size: 1.3em;
     }
     /*login*/
-    h1{
-        text-align: center;
-        color: #368276;
+    #login{
+        background-color: #d1d1d1;
     }
+    .titulo{
+        text-align: center;
+    }
+    .dados{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    #space{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .botao{
+        order: 1;
+        align-self: center;
+        justify-self: end;
+        background-color: rgba(255,255,255,0);
+        color: #368276;
+        border-radius: 10px;
+    }
+    .botao:hover{
+        background-color: #368276;
+        color: #e86610;
+    }
+    .cadastro, .entrar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .entrar{
+        padding-right: 30px;
+    }
+    .cadastro{
+        border-left: 1px solid #000;
+        padding-left: 30px;
+    }
+    .form-l{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .entrar .form-l{
+        height: 100px;
+        justify-content: space-between;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input{
+        background-color: rgba(255,255,255,0);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .input:hover{
+        background-color: #36827793;
+    }
+    .orietation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #tr-1 {
+        position: absolute;
+        bottom: 0;
+        width: 0; 
+        height: 0; 
+        border-bottom: 250px solid transparent;
+        border-top: 250px solid transparent;
+        border-left: 250px solid #3682773a;
+      }
+      #tr-2 {
+          position: absolute;
+          bottom: 0;
+          width: 0;
+          height: 0;
+          border-left: 250px solid transparent;
+          border-right: 250px solid transparent;
+          border-bottom: 250px solid #47c5b23a
+      }
+      
 }
 
 /* desktop
