@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" sizes="192x192" href="images/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a520ec197c.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body id="login">
+    <header>
+        <div class="logo">
+            <div id="triangle"></div>
+            <a href="index.html">
+              <h1>back to work</h1>
+            </a>
+        </div>
+        <button class="btn-menu">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+        <nav class="menu">
+            <a href="#" class="btn-close">x</a>
+            <ul>
+              <a href="#">
+                <li>O projeto</li>
+              </a>
+              <a href="#">
+                <li>Quem somos</li>
+              </a>
+              <a href="cursos.html">
+                <li>Cursos</li>
+              </a>
+              <a href="#">
+                <li>Contatos</li>
+              </a>
+            </ul>
+          </nav>
+    </header>
+    <main>
+      <div id="space"></div>
+        <h1 class="green titulo">Login</h1>
+        <div id="tr-1"></div> 
+        <div id="tr-2"></div>
+        <div class="dados">
+          <section class="entrar col-lg-4 col-md-4">
+            <h2 class="green titulo">Já tem cadastro?</h2>
+            <form class="form-s form-l">
+              <div class="orietation col-lg-12">
+                <label for="emailc">Email:</label>
+                <input type="email" class="input col-lg-9 col-md-12" name="emailc" id="emailc">
+              </div>
+              <div class="orietation col-lg-12">
+                <label for="senhac">Senha:</label>
+                <input type="password" class="input col-lg-9 col-md-12" name="senha" id="senha">
+              </div>
+              <input type="submit" value="Entrar" class="botao col-sm-3 col-md-6 col-lg-6">
+            </form>
+          </section>
+          <section class="cadastro col-lg-8 col-md-8">
+            <h2 class="green titulo">Cadastre-se gratuitamente</h2>
+            <form class="form-s form-l">
+              <div class="orietation col-lg-12">
+                <label for="name">Nome Completo:</label>
+                <input type="text" class="input col-lg-9" name="name" id="name">
+              </div>
+              <div class="orietation col-lg-12">
+                <label for="local">Endereço:</label>
+                <input type="text" class="input col-lg-9" name="local" id="local">
+              </div>
+              <div class="orietation col-lg-12">
+                <label for="email">Email:</label>
+                <input type="email" class="input col-lg-9" name="email" id="email">
+              </div>  
+              <div class="orietation col-lg-12">
+                <label for="senha">Senha:</label>
+                <input type="password" class="input col-lg-9" name="senha" id="senha">
+              </div>
+              <input type="submit" value="Cadastrar" class="botao col-sm-3 col-md-6 col-lg-6">
+            </form>
+          </section>
+        </div>
+        
+        <footer>
+          <div class="text">
+            <p>Telefone:(55) 12344 - 5678 </p>
+            <p>Email: contato@backtowork </p>
+            <p class="nets">
+              Redes sociais:
+            </p>
+          </div>
+          <div class="redes">
+            <span>
+              <a href="">
+                <img src="./images/Facebook.png" alt="">
+              </a>
+            </span>
+            <span>
+              <a href="">
+                <img src="./images/twitter.png" alt="">
+              </a>
+            </span>
+            <span>
+              <a href="">
+                <img src="./images/youtube.png" alt="">
+              </a>
+            </span>
+          </div>  
+        </footer>
+        <script src="scripts/menu.js"></script>
+    </main>
+</body>
+</html>
