@@ -280,6 +280,7 @@ time, mark, audio, video {
     .div-singin:hover {
         background-color: rgb(7, 90, 90);
     }
+
     /*main*/
     .singin {
          display: none;
@@ -398,23 +399,28 @@ time, mark, audio, video {
     h2 {
         font-size: 1.3em;
     }
+
     /*login*/
-    #login{
+    #login {
         background-color: #d1d1d1;
     }
-    .titulo{
+
+    .titulo {
         text-align: center;
         color: #368276;
     }
-    .dados{
+
+    .dados {
         display: flex;
         flex-direction: column;
     }
-    #space{
+
+    #space {
         padding-top: 30px;
         padding-bottom: 5px;
     }
-    .botao{
+
+    .botao {
         order: 1;
         align-self: center;
         justify-self: end;
@@ -422,36 +428,44 @@ time, mark, audio, video {
         color: #368276;
         border-radius: 10px;
     }
-    .botao:active{
+
+    .botao:active {
         background-color: #368276;
         color: #e86610;
     }
-    .cadastro, .entrar{
+
+    .cadastro, .entrar {
         display: flex;
         flex-direction: column;
     }
-    .form-s{
+
+    .form-s {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
-    .text{
+
+    .text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .input{
+
+    .input {
         background-color: rgba(255,255,255,0);
         border: 1px solid #000;
         border-radius: 10px;
     }
-    .orietation{
+
+    .orietation {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     #tr-1 {
+        z-index: -1;
         position: absolute;
         bottom: 0;
         width: 0; 
@@ -460,7 +474,9 @@ time, mark, audio, video {
         border-top: 200px solid transparent;
         border-left: 200px solid #3682773a;
     }
+
     #tr-2 {
+        z-index: -1;
         position: absolute;
         bottom: 0;
         width: 0;
@@ -706,16 +722,16 @@ time, mark, audio, video {
         box-shadow: 2px 2px #888888;
     }
 
-    .div-singin p{
+    .div-singin p {
         padding: 5px;
     }
 
-    .btn-singin{
+    .btn-singin {
         color: #fff;
         padding: 10px;
     }
 
-    .div-singin:hover{
+    .div-singin:hover {
         background-color: rgb(7, 90, 90);
     }
 
@@ -726,43 +742,44 @@ time, mark, audio, video {
    }
 
    .modulos {
-       background-color: #368276;
-       top: 0;
-       clear: both;
-       width: 100%;
-       margin: auto;
+        background-color: #368276;
+        top: 0;
+        clear: both;
+        width: 100%;
+        margin: auto;
    }
 
-   .cards {
-       width: 90%;
-       margin: auto;
-       text-align: center;
-       padding: 10px;
-   }
+    .cards {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
 
-   .card {
-       color: white;
-       border-radius: 10px;
-       width: 30%;
-       min-height: 40px;
-       height: fit-content;
-       line-height: 40px;
-       background-color: #e86610;
-       display: inline-block;
-   }
+    .card {
+        color: white;
+        border-radius: 10px;
+        width: 30%;
+        min-height: 40px;
+        height: fit-content;
+        line-height: 40px;
+        background-color: #e86610;
+        display: inline-block;
+    }
 
-   .card:hover {
-       background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-   }
+    .card:hover {
+        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
+    }
 
-   .card:active {
-    color: black;
-    background-color: rgba(16, 6, 1, 0.5);
-}
+    .card:active {
+        color: black;
+        background-color: rgba(16, 6, 1, 0.5);
+    }
+
    .card p {
-       color: #fff;
-       text-align: center;
-       margin: auto;
+        color: #fff;
+        text-align: center;
+        margin: auto;
    }
 
     /**************/
@@ -838,24 +855,29 @@ time, mark, audio, video {
     h2 {
         font-size: 1.3em;
     }
+
     /*login*/
-    #login{
+    #login {
         background-color: #d1d1d1;
     }
-    .titulo{
+
+    .titulo {
         text-align: center;
         color: #368276;
     }
-    .dados{
+
+    .dados {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    #space{
+
+    #space {
         padding-top: 30px;
         padding-bottom: 5px;
     }
-    .botao{
+
+    .botao {
         order: 1;
         align-self: center;
         justify-self: end;
@@ -863,42 +885,51 @@ time, mark, audio, video {
         color: #368276;
         border-radius: 10px;
     }
-    .botao:active{
+
+    .botao:active {
         background-color: #368276;
         color: #e86610;
     }
-    .cadastro, .entrar{
+
+    .cadastro, .entrar {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .entrar{
+
+    .entrar {
         border-right: 1px solid #000;
         padding-right: 10px;
         padding-left: 20px;
     }
-    .form-s{
+
+    .form-s {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .text{
+
+    .text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .input{
+
+    .input {
         background-color: rgba(255,255,255,0);
         border: 1px solid #000;
         border-radius: 10px;
     }
-    .orietation{
+
+    .orietation {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     #tr-1 {
+        z-index: -1;
         position: absolute;
         bottom: 0;
         width: 0; 
@@ -908,6 +939,7 @@ time, mark, audio, video {
         border-left: 200px solid #3682773a;
     }
     #tr-2 {
+        z-index: -1;
         position: absolute;
         bottom: 0;
         width: 0;
@@ -915,7 +947,7 @@ time, mark, audio, video {
         border-left: 200px solid transparent;
         border-right: 200px solid transparent;
         border-bottom: 200px solid #47c5b23a
-      }
+    }
 }
 
 /* tablet virado -- col-lg */
@@ -1252,19 +1284,19 @@ time, mark, audio, video {
     }
 
     .redes {
-      display: inline-block;
-      width: 130px;
-      padding-top: 10px;
+        display: inline-block;
+        width: 130px;
+        padding-top: 10px;
     }
 
     .redes span {
-      display: inline-block;
-      width: 30%;
+        display: inline-block;
+        width: 30%;
     }
 
     .redes img {
-      width: 60%;
-      margin-bottom: 5px;
+        width: 60%;
+        margin-bottom: 5px;
     }
 
     h2 {
