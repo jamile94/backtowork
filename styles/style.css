@@ -371,7 +371,10 @@ time, mark, audio, video {
         font-size: 1.3em;
     }
     /*login*/
-    h1, h2{
+    #login{
+        background-color: #d1d1d1;
+    }
+    .titulo{
         text-align: center;
         color: #368276;
     }
@@ -385,7 +388,15 @@ time, mark, audio, video {
     }
     .botao{
         order: 1;
-        justify-content: center;
+        align-self: center;
+        justify-self: end;
+        background-color: rgba(255,255,255,0);
+        color: #368276;
+        border-radius: 10px;
+    }
+    .botao:active{
+        background-color: #368276;
+        color: #e86610;
     }
     .cadastro, .entrar{
         display: flex;
@@ -758,7 +769,7 @@ time, mark, audio, video {
     #login{
         background-color: #d1d1d1;
     }
-    h1, h2{
+    .titulo{
         text-align: center;
         color: #368276;
     }
@@ -773,7 +784,15 @@ time, mark, audio, video {
     }
     .botao{
         order: 1;
-        justify-content: center;
+        align-self: center;
+        justify-self: end;
+        background-color: rgba(255,255,255,0);
+        color: #368276;
+        border-radius: 10px;
+    }
+    .botao:active{
+        background-color: #368276;
+        color: #e86610;
     }
     .cadastro, .entrar{
         display: flex;
@@ -1134,14 +1153,14 @@ time, mark, audio, video {
     #login{
         background-color: #d1d1d1;
     }
-    h1, h2{
+    .titulo{
         text-align: center;
-        color: #368276;
     }
     .dados{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-top: 10px;
     }
     #space{
         padding-top: 30px;
@@ -1150,6 +1169,14 @@ time, mark, audio, video {
     .botao{
         order: 1;
         align-self: center;
+        justify-self: end;
+        background-color: rgba(255,255,255,0);
+        color: #368276;
+        border-radius: 10px;
+    }
+    .botao:hover{
+        background-color: #368276;
+        color: #e86610;
     }
     .cadastro, .entrar{
         display: flex;
@@ -1169,6 +1196,10 @@ time, mark, audio, video {
         justify-content: space-around;
         align-items: flex-start;
     }
+    .entrar .form-l{
+        height: 100px;
+        justify-content: space-between;
+    }
     .text{
         display: flex;
         flex-direction: column;
@@ -1178,6 +1209,9 @@ time, mark, audio, video {
         background-color: rgba(255,255,255,0);
         border: 1px solid #000;
         border-radius: 10px;
+    }
+    .input:hover{
+        background-color: #36827793;
     }
     .orietation{
         display: flex;
