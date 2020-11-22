@@ -1356,6 +1356,7 @@ time, mark, audio, video {
     }
 
     #tr-1 {
+        z-index: -1;
         position: absolute;
         bottom: 0;
         width: 0; 
@@ -1366,6 +1367,7 @@ time, mark, audio, video {
     }
 
     #tr-2 {
+        z-index: -1;
         position: absolute;
         bottom: 0;
         width: 0;
