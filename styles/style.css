@@ -33,6 +33,84 @@ time, mark, audio, video {
     color: #368276;
 }
 
+body {
+    background-color: #fff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1.green {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 12px 0 12px;
+}
+
+h3.green {
+    display: block;
+    font-size: 100%;
+    text-align: center;
+}
+
+/* Página cursos.html*/
+p.modulo-box {
+    width: 120px;
+}
+
+.top-nav {
+    width: 100%;
+    min-height: 32px;
+    height: fit-content;
+    line-height: 32px;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(54, 130, 118, 0.4);
+}
+
+.top-nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 4px 2px 4px;
+}
+
+.top-nav ul li:hover {
+    color: #fff;
+    background-color: rgb(54, 130, 118, 0.3);
+}
+
+.top-nav ul li:active {
+    color: rgb(97, 97, 97);
+    background-color: rgba(33, 80, 73, 0.3);
+}
+
+article.btn-area {
+    text-align: center;
+}
+
+.btn-area p {
+    margin: auto;
+}
+
+div.btn:hover {
+    background-color: #2f6f66;
+    color: rgb(145, 145, 145);
+}
+
+div.btn:active {
+    background-color: #1f4842;
+    color: rgb(97, 97, 97);
+}
+
+/***********************************/
+/*          MEDIA QUERIES          */
+/***********************************/
+
 /* mobile col-sm */
 @media (max-width: 480px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
@@ -52,70 +130,7 @@ time, mark, audio, video {
     .col-sm-11 { width: 91.66%; }
     .col-sm-12 { width: 100%; }
 
-    body {
-        background-color: #fff;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    h1.green {
-        display: block;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        margin: 12px 0 12px;
-    }
-
-    h3.green {
-        display: block;
-        font-size: 100%;
-        text-align: center;
-    }
-
     /* Página cursos.html*/
-    p.modulo-box {
-        width: 120px;
-    }
-
-    .top-nav {
-        width: 100%;
-        min-height: 32px;
-        height: fit-content;
-        line-height: 32px;
-        padding: 0;
-        text-align: center;
-        background-color: rgb(54,130,118, 0.4);
-    }
-
-    .top-nav ul li {
-        text-decoration: none;
-        display: inline-block;
-        padding: 2px 4px 2px 4px;
-    }
-
-    .top-nav ul li:hover {
-        color: #fff;
-        background-color: rgb(54,130,118, 0.3);
-    }
-
-    .top-nav ul li:active {
-        color: rgb(97, 97, 97);
-        background-color: rgba(33, 80, 73, 0.3);
-    }
-
-    article.btn-area {
-        text-align: center;
-    }
-
-    .btn-area p {
-        margin: auto;
-    }
-
     div.btn {
         color: white;
         background-color: #368276;
@@ -134,16 +149,6 @@ time, mark, audio, video {
         cursor: pointer;
     }
 
-    div.btn:hover {
-        background-color: #2f6f66;
-        color: rgb(145, 145, 145);
-    }
-
-    div.btn:active {
-        background-color: #1f4842;
-        color: rgb(97, 97, 97);
-    }
-
     #backtriangle {
         z-index: -1;
         position: absolute;
@@ -154,7 +159,6 @@ time, mark, audio, video {
         border-left: 77vw solid transparent;
         border-right: 25vw solid rgb(54,130,118, 0.2);
     }
-
     /* cursos.html */
 
     /*header*/
@@ -529,70 +533,7 @@ time, mark, audio, video {
     .col-md-11 { width: 91.66%; }
     .col-md-12 { width: 100%; }
 
-    body {
-        background-color: #fff;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    h1.green {
-        display: block;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        margin: 12px 0 12px;
-    }
-
-    h3.green {
-        display: block;
-        font-size: 100%;
-        text-align: center;
-    }
-
     /* Página cursos.html */
-    p.modulo-box {
-        width: 120px;
-    }
-
-    .top-nav {
-        width: 100%;
-        min-height: 32px;
-        height: fit-content;
-        line-height: 32px;
-        padding: 0;
-        text-align: center;
-        background-color: rgb(54,130,118, 0.4);
-    }
-
-    .top-nav ul li {
-        text-decoration: none;
-        display: inline-block;
-        padding: 2px 4px 2px 4px;
-    }
-
-    .top-nav ul li:hover {
-        color: #fff;
-        background-color: rgb(54,130,118, 0.3);
-    }
-
-    .top-nav ul li:active {
-        color: rgb(97, 97, 97);
-        background-color: rgba(33, 80, 73, 0.3);
-    }
-
-    article.btn-area {
-        text-align: center;
-    }
-
-    .btn-area p {
-        margin: auto;
-    }
-
     div.btn {
         color: white;
         background-color: #368276;
@@ -605,19 +546,10 @@ time, mark, audio, video {
         height: fit-content;
         min-height: 65px;
         line-height: 65px;
+
         border-radius: 6px;
         text-align: center;
         cursor: pointer;
-    }
-
-    div.btn:hover {
-        background-color: #2f6f66;
-        color: rgb(145, 145, 145);
-    }
-
-    div.btn:active {
-        background-color: #1f4842;
-        color: rgb(97, 97, 97);
     }
 
     #backtriangle {
@@ -625,12 +557,11 @@ time, mark, audio, video {
         position: absolute;
         width: 0;
         height: 0; 
-        border-top: 20em solid rgb(54,130,118, 0.1);
+        border-top: 20em solid rgb(54, 130, 118, 0.1);
         border-bottom: 20em solid transparent;
         border-left: 77vw solid transparent;
-        border-right: 25vw solid rgb(54,130,118, 0.2);
+        border-right: 25vw solid rgb(54, 130, 118, 0.2);
     }
-
     /* cursos.html */
 
     /*header*/
@@ -1016,70 +947,7 @@ time, mark, audio, video {
     .col-lg-11 { width: 91.66%; }
     .col-lg-12 { width: 100%; }
 
-   body {
-       background-color: #fff;
-       margin: 0;
-       box-sizing: border-box;
-   }
-
-   a {
-    text-decoration: none;
-    color: inherit;
-    }
-
-    h1.green {
-        display: block;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        margin: 12px 0 12px;
-    }
-
-    h3.green {
-        display: block;
-        font-size: 100%;
-        text-align: center;
-    }
-
     /* Página cursos.html */
-    p.modulo-box {
-        width: 120px;
-    }
-
-    .top-nav {
-        width: 100%;
-        min-height: 32px;
-        height: fit-content;
-        line-height: 32px;
-        padding: 0;
-        text-align: center;
-        background-color: rgb(54,130,118, 0.4);
-    }
-
-    .top-nav ul li {
-        text-decoration: none;
-        display: inline-block;
-        padding: 2px 4px 2px 4px;
-    }
-
-    .top-nav ul li:hover {
-        color: #fff;
-        background-color: rgb(54,130,118, 0.3);
-    }
-
-    .top-nav ul li:active {
-        color: rgb(97, 97, 97);
-        background-color: rgba(33, 80, 73, 0.3);
-    }
-
-    article.btn-area {
-        text-align: center;
-    }
-
-    .btn-area p {
-        margin: auto;
-    }
-
     div.btn {
         color: white;
         background-color: #368276;
@@ -1098,25 +966,15 @@ time, mark, audio, video {
         cursor: pointer;
     }
 
-    div.btn:hover {
-        background-color: #2f6f66;
-        color: rgb(145, 145, 145);
-    }
-
-    div.btn:active {
-        background-color: #1f4842;
-        color: rgb(97, 97, 97);
-    }
-
     #backtriangle {
         z-index: -1;
         position: absolute;
         width: 0;
         height: 0; 
-        border-top: 20vw solid rgb(54,130,118, 0.1);
+        border-top: 20vw solid rgb(54, 130, 118, 0.1);
         border-bottom: 20vw solid transparent;
         border-left: 77vw solid transparent;
-        border-right: 25vw solid rgb(54,130,118, 0.2);
+        border-right: 25vw solid rgb(54, 130, 118, 0.2);
     }
     /* cursos.html */
 
