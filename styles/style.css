@@ -28,8 +28,7 @@ time, mark, audio, video {
     font-family: sans-serif;
 }
 
-/* Pra textos verdes criei essa classe */
-.green {
+.green { /* Para textos verdes */
     color: #368276;
 }
 
@@ -58,7 +57,9 @@ h3.green {
     text-align: center;
 }
 
-/* Página cursos.html*/
+/**********************/
+/* Página cursos.html */
+/**********************/
 p.modulo-box {
     width: 120px;
 }
@@ -105,6 +106,181 @@ div.btn:hover {
 div.btn:active {
     background-color: #1f4842;
     color: rgb(97, 97, 97);
+}
+
+/*********************/
+/* Página index.html */
+/*********************/
+/* Header */
+.hero-banner {
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/hero-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    padding: 2% 0;
+    bottom: 0;
+}
+
+.logo h1 {
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 3px;
+    color: #fff;
+}
+
+#triangle {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #e86610;
+}
+
+/**/
+/**/
+.start-now {
+    float: left;
+    text-align: left;
+    margin: 50px 50px 0 50px;
+    color: #ffF;
+    background-color: rgba(92.9, 38.8, 9.4, 0.5);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.start-now h2, p {
+    padding-left: 2%;
+    width: 60%;
+}
+
+.cards {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    min-height: 40px;
+    height: fit-content;
+    line-height: 40px;
+    background-color: #e86610;
+    display: inline-block;
+}
+
+.card:hover {
+    background-color: rgba(92.9, 38.8, 9.4, 0.5);
+}
+
+.card:active {
+    color: black;
+    background-color: rgba(16, 6, 1, 0.5);
+}
+
+.card p {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+/**************/
+/**************/
+.articles {
+    margin: 10px auto;
+    width: 100%;
+    color: #368276;
+    float: left;
+    text-align: center;
+}
+
+.articles article {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+}
+
+.articles img {
+    width: 70%;
+    float: none;
+    margin-right: 5px;
+}
+
+#art2 {
+    margin: 0;
+}
+
+#art2 img {
+    float: none;
+    width: 75%;
+}
+
+.explain {
+    background-color: #368276;
+    color: #fff;
+    overflow: auto;
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 10px;
+    color: #368276;
+    text-align: center;
+}
+
+.nets {
+    margin-bottom: -10px;
+}
+
+.redes {
+  display: inline-block;
+  width: 130px;
+  padding-top: 10px;
+}
+
+.redes span {
+  display: inline-block;
+  width: 30%;
+}
+
+.redes img {
+  width: 60%;
+  margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+/*********************/
+/* Página login.html */
+/*********************/
+#login {
+    background-color: #d1d1d1;
+}
+
+.titulo {
+    text-align: center;
+}
+
+#space {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.botao {
+    order: 1;
+    align-self: center;
+    justify-self: end;
+    background-color: rgba(255,255,255,0);
+    color: #368276;
+    border-radius: 10px;
 }
 
 /***********************************/
@@ -162,17 +338,6 @@ div.btn:active {
     /* cursos.html */
 
     /*header*/
-    .hero-banner {
-        width: 100%;
-        height: 250px;
-        background-image: url(../images/hero-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: center;
-        padding: 2% 0;
-        bottom: 0;
-    }
-
     .logo {
         width: 33%;
         height: 25px;
@@ -181,22 +346,6 @@ div.btn:active {
         padding: 10px;
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
-    }
-
-    .logo h1 {
-        position: absolute;
-        text-transform: uppercase;
-        margin-top: 3px;
-        color: #fff;
-    }
-
-    #triangle {
-        position: absolute;
-        width: 0; 
-        height: 0; 
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 12px solid #e86610;
     }
 
     .btn-menu {
@@ -249,20 +398,6 @@ div.btn:active {
     }
 
     /**/
-    .start-now {
-        float: left;
-        text-align: left;
-        margin: 50px 50px 0 50px;
-        color: #ffF;
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    .start-now h2, p {
-        padding-left: 2%;
-        width: 60%;
-    }
-
     .div-singin {
         float: left;
         text-align: left;
@@ -299,138 +434,15 @@ div.btn:active {
         margin: auto;
     }
 
-    .cards {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .card {
-        color: white;
-        border-radius: 10px;
-        width: 30%;
-        min-height: 40px;
-        height: fit-content;
-        line-height: 40px;
-        background-color: #e86610;
-        display: inline-block;
-    }
-
-    .card:hover {
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-    }
-
-    .card:active {
-        color: black;
-        background-color: rgba(16, 6, 1, 0.5);
-    }
-
-    .card p {
-        color: #fff;
-        text-align: center;
-        margin: auto;
-    }
-
-    .articles {
-        margin: 10px auto;
-        width: 100%;
-        color: #368276;
-        float: left;
-        text-align: center;
-    }
-
-    .articles article {
-        display: inline-block;
-        width: 40%;
-        height: 200px;
-        margin: auto;
-    }
-
-    .articles img {
-        width: 70%;
-        float: none;
-        margin-right: 5px;
-    }
-
+    /**************/
     .articles h2 {
         margin-top: 20px;
     }
 
-    #art2 {
-        margin: 0;
-    }
-
-    #art2 img {
-        float: none;
-        width: 75%;
-    }
-
-    .explain {
-        background-color: #368276;
-        color: #fff;
-        overflow: auto;
-        padding: 10px;
-        text-align: left;
-    }
-    footer {
-        margin-top: 10px;
-        color: #368276;
-        text-align: center;
-    }
-    
-
-    .nets {
-        margin-bottom: -10px;
-    }
-
-    .redes {
-      display: inline-block;
-      width: 130px;
-      padding-top: 10px;
-    }
-
-    .redes span {
-      display: inline-block;
-      width: 30%;
-    }
-
-    .redes img {
-      width: 60%;
-      margin-bottom: 5px;
-    }
-
-    h2 {
-        font-size: 1.3em;
-    }
-
     /*login*/
-    #login {
-        background-color: #d1d1d1;
-    }
-
-    .titulo {
-        text-align: center;
-        color: #368276;
-    }
-
     .dados {
         display: flex;
         flex-direction: column;
-    }
-
-    #space {
-        padding-top: 30px;
-        padding-bottom: 5px;
-    }
-
-    .botao {
-        order: 1;
-        align-self: center;
-        justify-self: end;
-        background-color: rgba(255,255,255,0);
-        color: #368276;
-        border-radius: 10px;
     }
 
     .botao:active {
@@ -490,7 +502,7 @@ div.btn:active {
         border-bottom: 200px solid #47c5b23a
     }
 
-    /* Módulo01 */
+    /* Módulo 1 */
     .video-list {
         margin: 1% 0 1% 0;
         height: 200px;
@@ -565,17 +577,6 @@ div.btn:active {
     /* cursos.html */
 
     /*header*/
-    .hero-banner {
-        width: 100%;
-        height: 250px;
-        background-image: url(../images/hero-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: center;
-        padding: 2% 0;
-        bottom: 0;
-    }
-
     .logo {
         width: 30%;
         height: 25px;
@@ -584,23 +585,6 @@ div.btn:active {
         padding: 10px;
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
-    }
-
-    .logo h1 {
-        position: absolute;
-        text-transform: uppercase;
-        margin-top: 3px;
-        color: #fff;
-        
-    }
-
-    #triangle {
-        position: absolute;
-        width: 0; 
-        height: 0; 
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 12px solid #e86610;
     }
 
     .btn-menu {
@@ -653,20 +637,6 @@ div.btn:active {
     }
 
     /**/
-    .start-now {
-        float: left;
-        text-align: left;
-        margin: 50px 50px 0 50px;
-        color: #ffF;
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    .start-now h2, p {
-        width: 60%;
-        padding-left: 2%;
-    }
-
     .div-singin {
         float: left;
         text-align: left;
@@ -703,141 +673,16 @@ div.btn:active {
         margin: auto;
    }
 
-    .cards {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .card {
-        color: white;
-        border-radius: 10px;
-        width: 30%;
-        min-height: 40px;
-        height: fit-content;
-        line-height: 40px;
-        background-color: #e86610;
-        display: inline-block;
-    }
-
-    .card:hover {
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-    }
-
-    .card:active {
-        color: black;
-        background-color: rgba(16, 6, 1, 0.5);
-    }
-
-   .card p {
-        color: #fff;
-        text-align: center;
-        margin: auto;
-   }
-
     /**************/
-    .articles {
-        margin: 10px auto;
-        width: 100%;
-        color: #368276;
-        float: left;
-        text-align: center;
-    }
-
-    .articles article{
-        display: inline-block;
-        width: 40%;
-        height: 200px;
-        margin: auto;
-    }
-
-    .articles img {
-        width: 70%;
-        float: none;
-        margin-right: 5px;
-    }
-
     .articles h2 {
         margin-top: 20px;
     }
 
-    #art2 {
-        margin: 0;
-    }
-
-    #art2 img {
-        float: none;
-        width: 75%;
-    }
-
-    .explain {
-        background-color: #368276;
-        color: #fff;
-        overflow: auto;
-        padding: 10px;
-        text-align: left;
-    }
-
-    footer {
-        margin-top: 10px;
-        padding-top: 100px;
-        color: #368276;
-        text-align: center;
-    }
-
-    .nets {
-        margin-bottom: -10px;
-    }
-
-    .redes {
-      display: inline-block;
-      width: 130px;
-      padding-top: 10px;
-    }
-    
-    .redes span {
-      display: inline-block;
-      width: 30%;
-    }
-
-    .redes img {
-      width: 60%;
-      margin-bottom: 5px;
-    }
-
-    h2 {
-        font-size: 1.3em;
-    }
-
     /*login*/
-    #login {
-        background-color: #d1d1d1;
-    }
-
-    .titulo {
-        text-align: center;
-        color: #368276;
-    }
-
     .dados {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }
-
-    #space {
-        padding-top: 30px;
-        padding-bottom: 5px;
-    }
-
-    .botao {
-        order: 1;
-        align-self: center;
-        justify-self: end;
-        background-color: rgba(255,255,255,0);
-        color: #368276;
-        border-radius: 10px;
     }
 
     .botao:active {
@@ -904,7 +749,7 @@ div.btn:active {
         border-bottom: 200px solid #47c5b23a
     }
 
-    /* Módulo 01 */
+    /* Módulo 1 */
     .video-list {
         margin: 1% 0 1% 0;
         height: 200px;
@@ -979,17 +824,6 @@ div.btn:active {
     /* cursos.html */
 
     /*header*/
-    .hero-banner {
-        width: 100%;
-        height: 250px;
-        background-image: url(../images/hero-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: center;
-        padding: 2% 0;
-        bottom: 0;
-    }
-
     .logo {
         width: 18%;
         height: 25px;
@@ -998,22 +832,6 @@ div.btn:active {
         padding: 10px;
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
-    }
-
-    .logo h1 {
-        position: absolute;
-        text-transform: uppercase;
-        margin-top: 3px;
-        color: #fff;
-    }
-
-    #triangle {
-        position: absolute;
-        width: 0; 
-        height: 0; 
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 12px solid #e86610;
     }
 
     .btn-menu {
@@ -1062,20 +880,6 @@ div.btn:active {
     }
 
     /**/
-    .start-now {
-        float: left;
-        text-align: left;
-        margin: 50px 50px 0 50px;
-        color: #ffF;
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    .start-now h2, p {
-        padding-left: 2%;
-        width: 60%;
-    }
-
     .singin {
         display: inline-block;
         width: 50%;
@@ -1100,142 +904,16 @@ div.btn:active {
         float: left;
     }
 
-    .cards {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .card {
-        color: white;
-        border-radius: 10px;
-        width: 30%;
-        min-height: 40px;
-        height: fit-content;
-        line-height: 40px;
-        background-color: #e86610;
-        display: inline-block;
-    }
-
-    .card:hover {
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-    }
-
-    .card:active {
-        color: black;
-        background-color: rgba(16, 6, 1, 0.5);
-    }
-
-    .card p {
-        color: #fff;
-        text-align: center;
-        margin: auto;
-        font-size: 0.9456em;
-    }
-
-    .articles {
-        margin: 10px auto;
-        width: 100%;
-        color: #368276;
-        float: left;
-        text-align: center;
-    }
-
-    .articles article {
-        display: inline-block;
-        width: 40%;
-        height: 200px;
-        margin: auto;
-    }
-
-    .articles img {
-        width: 70%;
-        float: none;
-        margin-right: 5px;
-    }
-
     .articles h2 {
         margin-top: 0;
     }
 
-    #art2 {
-        margin: 0;
-    }
-
-    #art2 img {
-        float: none;
-        width: 75%;
-        
-    }
-
-    .explain {
-        background-color: #368276;
-        color: #fff;
-        overflow: auto;
-        padding: 10px;
-        text-align: left;
-    }
-
-    footer {
-        margin-top: 10px;
-        padding-top: 150px;
-        color: #368276;
-        text-align: center;
-    }
-
-    .nets {
-        margin-bottom: -10px;
-    }
-
-    .redes {
-        display: inline-block;
-        width: 130px;
-        padding-top: 10px;
-    }
-
-    .redes span {
-        display: inline-block;
-        width: 30%;
-    }
-
-    .redes img {
-        width: 60%;
-        margin-bottom: 5px;
-    }
-
-    h2 {
-        font-size: 1.3em;
-    }
-
     /*login*/
-    #login {
-        background-color: #d1d1d1;
-    }
-
-    .titulo {
-        text-align: center;
-    }
-
     .dados {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin-top: 10px;
-    }
-
-    #space {
-        padding-top: 30px;
-        padding-bottom: 5px;
-    }
-
-    .botao {
-        order: 1;
-        align-self: center;
-        justify-self: end;
-        background-color: rgba(255,255,255,0);
-        color: #368276;
-        border-radius: 10px;
     }
 
     .botao:hover{
@@ -1314,6 +992,7 @@ div.btn:active {
         border-bottom: 250px solid #47c5b23a
     }
 
+    /* Módulo 1 */
     .video-list {
         margin: 1% 0 1% 0;
         height: 400px;
