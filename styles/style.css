@@ -239,11 +239,6 @@ h2 {
 /*********************//******************************************************/
 /* Página login.html *//******************************************************/
 /*********************//******************************************************/
-#login {
-    vertical-align: middle;
-    background-color: #d1d1d1;
-}
-
 label {
     margin: auto;
 }
@@ -337,6 +332,8 @@ div.btn:active {
     .col-sm-12 { width: 100%; }
 
     /* Coisas gerais */
+    .top-nav { display: none; }
+
     #backtriangle {
         z-index: -1;
         position: absolute;
@@ -544,6 +541,8 @@ div.btn:active {
     .col-md-12 { width: 100%; }
 
     /* Coisas gerais */
+    .top-nav { display: none; }
+
     #backtriangle {
         z-index: -1;
         position: absolute;
@@ -751,6 +750,19 @@ div.btn:active {
     .col-lg-11 { width: 91.66%; }
     .col-lg-12 { width: 100%; }
 
+    /* Coisas gerais */
+    #backtriangle {
+        z-index: -1;
+        position: absolute;
+        top: 35px;
+        left: 0;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-image: url(./../images/back.png);
+    }
+
     /* Página cursos.html */
     div.btn {
         color: white;
@@ -769,19 +781,6 @@ div.btn:active {
         text-align: center;
         cursor: pointer;
     }
-
-    #backtriangle {
-        z-index: -1;
-        position: absolute;
-        top: 35px;
-        left: 0;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100%;
-        background-image: url(./../images/back.png);
-    }
-    /* cursos.html */
 
     /*header*/
     .logo {
