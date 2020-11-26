@@ -1,80 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" sizes="192x192" href="images/icon.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/a520ec197c.js" crossorigin="anonymous"></script>
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/a520ec197c.js" crossorigin="anonymous"></script>
+  
+  <link rel="icon" sizes="192x192" href="images/icon.png">
+  <title>Back to Work</title>
 </head>
 
 <body id="login">
-    <header>
-        <a class="logo" href="index.html">
-          <div id="triangle"></div>
-          <h1>back to work</h1>
-        </a>
-        <button class="btn-menu">
-          <i class="fas fa-bars fa-lg"></i>
-        </button>
-        <nav class="menu">
-            <a href="#" class="btn-close">x</a>
-            <ul>
-              <li><a href="index.html">Voltar</a></li>
-              <li><a href=#>O projeto</a></li>
-              <li><a href="about.html">Quem somos</a></li>
-              <li><a href="cursos.html">Cursos</a></li>
-              <li><a href="contatos.html">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <a class="logo" href="index.html">
+      <div id="triangle"></div>
+      <h1>back to work</h1>
+    </a>
+    <button class="btn-menu">
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <nav class="menu">
+      <a href="#" class="btn-close">x</a>
+      <ul>
+        <li><a href=#>O projeto</a></li>
+        <li><a href="about.html">Quem somos</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
     <main>
       <div id="space"></div>
         <h1 class="green titulo">Login</h1>
         <div id="tr-1"></div> 
         <div id="tr-2"></div>
-        <div class="dados">
-          <section class="entrar col-lg-4 col-md-4">
-            <h2 class="green titulo">Já tem cadastro?</h2>
-            <form class="form-s form-l">
-              <div class="orietation col-lg-12">
-                <label for="emailc">Email:</label>
-                <input type="email" class="input col-lg-9 col-md-12" name="emailc" id="emailc">
-              </div>
-              <div class="orietation col-lg-12">
-                <label for="senhac">Senha:</label>
-                <input type="password" class="input col-lg-9 col-md-12" name="senha" id="senha">
-              </div>
-              <input type="submit" value="Entrar" class="botao col-sm-3 col-md-6 col-lg-6">
-            </form>
-          </section>
-          <section class="cadastro col-lg-8 col-md-8">
-            <h2 class="green titulo">Cadastre-se gratuitamente</h2>
-            <form class="form-s form-l">
-              <div class="orietation col-lg-12">
-                <label for="name">Nome Completo:</label>
-                <input type="text" class="input col-lg-9" name="name" id="name">
-              </div>
-              <div class="orietation col-lg-12">
-                <label for="local">Endereço:</label>
-                <input type="text" class="input col-lg-9" name="local" id="local">
-              </div>
-              <div class="orietation col-lg-12">
-                <label for="email">Email:</label>
-                <input type="email" class="input col-lg-9" name="email" id="email">
-              </div>  
-              <div class="orietation col-lg-12">
-                <label for="senha">Senha:</label>
-                <input type="password" class="input col-lg-9" name="senha" id="senha">
-              </div>
-              <input type="submit" value="Cadastrar" class="botao col-sm-3 col-md-6 col-lg-6">
-            </form>
-          </section>
-        </div>
-        
-        <footer>
+
+        <section class="entrar col-lg-4 col-md-4 col-sm-12">
+          <h2 class="green titulo">Já tem cadastro?</h2>
+          <form>
+            <label for="emailc">Email:</label><br>
+            <input type="email" class="input" name="emailc" id="emailc"><br>
+            <label for="senhac">Senha:</label><br>
+            <input type="password" class="input" name="senha" id="senha"><br>
+            <input type="submit" value="Entrar" class="botao">
+          </form>
+        </section>
+
+        <section class="cadastro col-lg-8 col-md-8 col-sm-12">
+          <h2 class="green titulo">Cadastre-se gratuitamente</h2>
+          <form>
+            <label for="name">Nome Completo:</label><br>
+            <input type="text" class="input" name="name" id="name"><br>
+            <label for="local">Endereço:</label><br>
+            <input type="text" class="input" name="local" id="local"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" class="input" name="email" id="email"><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" class="input" name="senha" id="senha"><br>
+            <input type="submit" value="Cadastrar" class="botao">
+          </form>
+        </section>
+
+        <footer class="col-lg-12 col-md-12 col-sm-12">
           <div class="text">
             <p>Telefone:(55) 12344 - 5678 </p>
             <p>Email: contato@backtowork </p>

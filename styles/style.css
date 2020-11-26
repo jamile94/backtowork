@@ -28,10 +28,294 @@ time, mark, audio, video {
     font-family: sans-serif;
 }
 
-/* Pra textos verdes criei essa classe */
-.green {
+.green { /* Para textos verdes */
     color: #368276;
 }
+
+body {
+    background-color: #fff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1.green {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 12px 0 12px;
+}
+
+h3.green {
+    display: block;
+    font-size: 100%;
+    text-align: center;
+}
+
+/**********************//******************************************************/
+/*   Coisas gerais    *//******************************************************/
+/**********************//******************************************************/
+.top-nav {
+    width: 100%;
+    min-height: 32px;
+    height: fit-content;
+    line-height: 32px;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(54, 130, 118, 0.4);
+}
+
+.top-nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 4px 2px 4px;
+}
+
+.top-nav ul li:hover {
+    color: #fff;
+    background-color: rgb(54, 130, 118, 0.3);
+}
+
+.top-nav ul li:active {
+    color: rgb(97, 97, 97);
+    background-color: rgba(33, 80, 73, 0.3);
+}
+
+/*********************//******************************************************/
+/* Página index.html *//******************************************************/
+/*********************//******************************************************/
+/* Header */
+.hero-banner {
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/hero-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    padding: 2% 0;
+    bottom: 0;
+}
+
+.logo h1 {
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 3px;
+    color: #fff;
+}
+
+#triangle {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #e86610;
+}
+
+/**/
+/**/
+.start-now {
+    float: left;
+    text-align: left;
+    margin: 50px 50px 0 50px;
+    color: #ffF;
+    background-color: rgba(92.9, 38.8, 9.4, 0.5);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.start-now h2, p {
+    padding-left: 2%;
+    width: 60%;
+}
+
+.cards {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    min-height: 40px;
+    height: fit-content;
+    line-height: 40px;
+    background-color: #e86610;
+    display: inline-block;
+}
+
+.card:hover {
+    background-color: rgba(92.9, 38.8, 9.4, 0.5);
+}
+
+.card:active {
+    color: black;
+    background-color: rgba(16, 6, 1, 0.5);
+}
+
+.card p {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+/**************/
+/**************/
+.articles {
+    margin: 10px auto;
+    width: 100%;
+    color: #368276;
+    float: left;
+    text-align: center;
+}
+
+.articles article {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+}
+
+.articles img {
+    width: 70%;
+    float: none;
+    margin-right: 5px;
+}
+
+#art2 {
+    margin: 0;
+}
+
+#art2 img {
+    float: none;
+    width: 75%;
+}
+
+.explain {
+    background-color: #368276;
+    color: #fff;
+    overflow: auto;
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 10px;
+    color: #368276;
+    text-align: center;
+}
+
+.nets {
+    margin-bottom: -10px;
+}
+
+.redes {
+  display: inline-block;
+  width: 130px;
+  padding-top: 10px;
+}
+
+.redes span {
+  display: inline-block;
+  width: 30%;
+}
+
+.redes img {
+  width: 60%;
+  margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+/*********************//******************************************************/
+/* Página login.html *//******************************************************/
+/*********************//******************************************************/
+#login {
+    vertical-align: middle;
+    background-color: #d1d1d1;
+}
+
+label {
+    margin: auto;
+}
+
+.titulo {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#space {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.botao {
+    color: black;
+    background-color: #afcdc8;
+    border: solid 2px black;
+    padding: 0.75em 1em 0.75em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #368276;
+    color: white;
+}
+
+.input {
+    padding: 1em;
+    margin: 0.75em auto 0.75em;
+    border-radius: 5px;
+    border: solid 2px black;
+    width: 60%;
+}
+
+.text { /* footer da página de login */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/**********************//******************************************************/
+/* Página cursos.html *//******************************************************/
+/**********************//******************************************************/
+p.modulo-box {
+    width: 120px;
+}
+
+section.btn-area {
+    text-align: center;
+}
+
+.btn-area p {
+    margin: auto;
+}
+
+div.btn:hover {
+    background-color: #2f6f66;
+    color: rgb(145, 145, 145);
+}
+
+div.btn:active {
+    background-color: #1f4842;
+    color: rgb(97, 97, 97);
+}
+
+/***********************************//*****************************************/
+/*          MEDIA QUERIES          *//*****************************************/
+/***********************************//*****************************************/
 
 /* mobile col-sm */
 @media (max-width: 480px) {
@@ -52,123 +336,20 @@ time, mark, audio, video {
     .col-sm-11 { width: 91.66%; }
     .col-sm-12 { width: 100%; }
 
-    body {
-        background-color: #fff;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    h1.green {
-        display: block;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        margin: 12px 0 12px;
-    }
-
-    h3.green {
-        display: block;
-        font-size: 100%;
-        text-align: center;
-    }
-
-    /* Página cursos.html*/
-    p.modulo-box {
-        width: 120px;
-    }
-
-    .top-nav {
-        width: 100%;
-        min-height: 32px;
-        height: fit-content;
-        line-height: 32px;
-        padding: 0;
-        text-align: center;
-        background-color: rgb(54,130,118, 0.4);
-    }
-
-    .top-nav ul li {
-        text-decoration: none;
-        display: inline-block;
-        padding: 2px 4px 2px 4px;
-    }
-
-    .top-nav ul li:hover {
-        color: #fff;
-        background-color: rgb(54,130,118, 0.3);
-    }
-
-    .top-nav ul li:active {
-        color: rgb(97, 97, 97);
-        background-color: rgba(33, 80, 73, 0.3);
-    }
-
-    article.btn-area {
-        text-align: center;
-    }
-
-    .btn-area p {
-        margin: auto;
-    }
-
-    div.btn {
-        color: white;
-        background-color: #368276;
-        font-weight: bold;
-        padding: 3px;
-        margin: 65px auto 10px;
-
-        width: fit-content;
-        min-width: 80px;
-        height: fit-content;
-        min-height: 65px;
-        line-height: 65px;
-
-        border-radius: 6px;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    div.btn:hover {
-        background-color: #2f6f66;
-        color: rgb(145, 145, 145);
-    }
-
-    div.btn:active {
-        background-color: #1f4842;
-        color: rgb(97, 97, 97);
-    }
-
+    /* Coisas gerais */
     #backtriangle {
         z-index: -1;
         position: absolute;
-        width: 0;
-        height: 0; 
-        border-top: 20em solid rgb(54,130,118, 0.1);
-        border-bottom: 20em solid transparent;
-        border-left: 77vw solid transparent;
-        border-right: 25vw solid rgb(54,130,118, 0.2);
+        top: 35px;
+        left: 0;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-image: url(./../images/back.png);
     }
-
-    /* cursos.html */
 
     /*header*/
-    .hero-banner {
-        width: 100%;
-        height: 250px;
-        background-image: url(../images/hero-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: center;
-        padding: 2% 0;
-        bottom: 0;
-    }
-
     .logo {
         width: 33%;
         height: 25px;
@@ -177,22 +358,6 @@ time, mark, audio, video {
         padding: 10px;
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
-    }
-
-    .logo h1 {
-        position: absolute;
-        text-transform: uppercase;
-        margin-top: 3px;
-        color: #fff;
-    }
-
-    #triangle {
-        position: absolute;
-        width: 0; 
-        height: 0; 
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 12px solid #e86610;
     }
 
     .btn-menu {
@@ -245,21 +410,7 @@ time, mark, audio, video {
     }
 
     /**/
-    .start-now {
-        float: left;
-        text-align: left;
-        margin: 50px 50px 0 50px;
-        color: #ffF;
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    .start-now h2, p {
-        padding-left: 2%;
-        width: 60%;
-    }
-
-    .div-singin {
+    .div-signin {
         float: left;
         text-align: left;
         margin: 20px 0 10px 100px;
@@ -268,21 +419,21 @@ time, mark, audio, video {
         box-shadow: 2px 2px #888888;
     }
 
-    .div-singin p {
+    .div-signin p {
         padding: 5px;
     }
 
-    .btn-singin {
+    .btn-signin {
         color: #fff;
         padding: 10px;
     }
 
-    .div-singin:hover {
+    .div-signin:hover {
         background-color: rgb(7, 90, 90);
     }
 
     /*main*/
-    .singin {
+    .signin {
          display: none;
          clear: both;
     }
@@ -295,173 +446,18 @@ time, mark, audio, video {
         margin: auto;
     }
 
-    .cards {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .card {
-        color: white;
-        border-radius: 10px;
-        width: 30%;
-        min-height: 40px;
-        height: fit-content;
-        line-height: 40px;
-        background-color: #e86610;
-        display: inline-block;
-    }
-
-    .card:hover {
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-    }
-
-    .card:active {
-        color: black;
-        background-color: rgba(16, 6, 1, 0.5);
-    }
-
-    .card p {
-        color: #fff;
-        text-align: center;
-        margin: auto;
-    }
-
-    .articles {
-        margin: 10px auto;
-        width: 100%;
-        color: #368276;
-        float: left;
-        text-align: center;
-    }
-
-    .articles article {
-        display: inline-block;
-        width: 40%;
-        height: 200px;
-        margin: auto;
-    }
-
-    .articles img {
-        width: 70%;
-        float: none;
-        margin-right: 5px;
-    }
-
+    /**************/
     .articles h2 {
         margin-top: 20px;
     }
 
-    #art2 {
-        margin: 0;
-    }
-
-    #art2 img {
-        float: none;
-        width: 75%;
-    }
-
-    .explain {
-        background-color: #368276;
-        color: #fff;
-        overflow: auto;
-        padding: 10px;
-        text-align: left;
-    }
-    footer {
-        margin-top: 10px;
-        color: #368276;
-        text-align: center;
-    }
-    
-
-    .nets {
-        margin-bottom: -10px;
-    }
-
-    .redes {
-      display: inline-block;
-      width: 130px;
-      padding-top: 10px;
-    }
-
-    .redes span {
-      display: inline-block;
-      width: 30%;
-    }
-
-    .redes img {
-      width: 60%;
-      margin-bottom: 5px;
-    }
-
-    h2 {
-        font-size: 1.3em;
-    }
-
     /*login*/
-    #login {
-        background-color: #d1d1d1;
-    }
-
-    .titulo {
+    .entrar, .cadastro {
         text-align: center;
-        color: #368276;
     }
 
-    .dados {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #space {
-        padding-top: 30px;
-        padding-bottom: 5px;
-    }
-
-    .botao {
-        order: 1;
-        align-self: center;
-        justify-self: end;
-        background-color: rgba(255,255,255,0);
-        color: #368276;
-        border-radius: 10px;
-    }
-
-    .botao:active {
-        background-color: #368276;
-        color: #e86610;
-    }
-
-    .cadastro, .entrar {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .form-s {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .input {
-        background-color: rgba(255,255,255,0);
-        border: 1px solid #000;
-        border-radius: 10px;
-    }
-
-    .orietation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .entrar > h2, .cadastro > h2 {
+        margin: 15px auto 15px;
     }
 
     #tr-1 {
@@ -485,8 +481,26 @@ time, mark, audio, video {
         border-right: 200px solid transparent;
         border-bottom: 200px solid #47c5b23a
     }
+    /* Página de módulos e cursos */
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
 
-    /* Módulo01 */
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    /* Módulo 1 */
     .video-list {
         margin: 1% 0 1% 0;
         height: 200px;
@@ -529,122 +543,20 @@ time, mark, audio, video {
     .col-md-11 { width: 91.66%; }
     .col-md-12 { width: 100%; }
 
-    body {
-        background-color: #fff;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    h1.green {
-        display: block;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        margin: 12px 0 12px;
-    }
-
-    h3.green {
-        display: block;
-        font-size: 100%;
-        text-align: center;
-    }
-
-    /* Página cursos.html */
-    p.modulo-box {
-        width: 120px;
-    }
-
-    .top-nav {
-        width: 100%;
-        min-height: 32px;
-        height: fit-content;
-        line-height: 32px;
-        padding: 0;
-        text-align: center;
-        background-color: rgb(54,130,118, 0.4);
-    }
-
-    .top-nav ul li {
-        text-decoration: none;
-        display: inline-block;
-        padding: 2px 4px 2px 4px;
-    }
-
-    .top-nav ul li:hover {
-        color: #fff;
-        background-color: rgb(54,130,118, 0.3);
-    }
-
-    .top-nav ul li:active {
-        color: rgb(97, 97, 97);
-        background-color: rgba(33, 80, 73, 0.3);
-    }
-
-    article.btn-area {
-        text-align: center;
-    }
-
-    .btn-area p {
-        margin: auto;
-    }
-
-    div.btn {
-        color: white;
-        background-color: #368276;
-        font-weight: bold;
-        padding: 3px;
-        margin: 65px auto 10px;
-
-        width: fit-content;
-        min-width: 80px;
-        height: fit-content;
-        min-height: 65px;
-        line-height: 65px;
-        border-radius: 6px;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    div.btn:hover {
-        background-color: #2f6f66;
-        color: rgb(145, 145, 145);
-    }
-
-    div.btn:active {
-        background-color: #1f4842;
-        color: rgb(97, 97, 97);
-    }
-
+    /* Coisas gerais */
     #backtriangle {
         z-index: -1;
         position: absolute;
-        width: 0;
-        height: 0; 
-        border-top: 20em solid rgb(54,130,118, 0.1);
-        border-bottom: 20em solid transparent;
-        border-left: 77vw solid transparent;
-        border-right: 25vw solid rgb(54,130,118, 0.2);
+        top: 35px;
+        left: 0;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-image: url(./../images/back.png);
     }
-
-    /* cursos.html */
 
     /*header*/
-    .hero-banner {
-        width: 100%;
-        height: 250px;
-        background-image: url(../images/hero-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: center;
-        padding: 2% 0;
-        bottom: 0;
-    }
-
     .logo {
         width: 30%;
         height: 25px;
@@ -653,23 +565,6 @@ time, mark, audio, video {
         padding: 10px;
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
-    }
-
-    .logo h1 {
-        position: absolute;
-        text-transform: uppercase;
-        margin-top: 3px;
-        color: #fff;
-        
-    }
-
-    #triangle {
-        position: absolute;
-        width: 0; 
-        height: 0; 
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 12px solid #e86610;
     }
 
     .btn-menu {
@@ -722,21 +617,7 @@ time, mark, audio, video {
     }
 
     /**/
-    .start-now {
-        float: left;
-        text-align: left;
-        margin: 50px 50px 0 50px;
-        color: #ffF;
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    .start-now h2, p {
-        width: 60%;
-        padding-left: 2%;
-    }
-
-    .div-singin {
+    .div-signin {
         float: left;
         text-align: left;
         margin: 20px 0 10px 100px;
@@ -745,21 +626,21 @@ time, mark, audio, video {
         box-shadow: 2px 2px #888888;
     }
 
-    .div-singin p {
+    .div-signin p {
         padding: 5px;
     }
 
-    .btn-singin {
+    .btn-signin {
         color: #fff;
         padding: 10px;
     }
 
-    .div-singin:hover {
+    .div-signin:hover {
         background-color: rgb(7, 90, 90);
     }
 
     /*main*/
-    .singin {
+    .signin {
         display: none;
         clear: both;
    }
@@ -772,183 +653,18 @@ time, mark, audio, video {
         margin: auto;
    }
 
-    .cards {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .card {
-        color: white;
-        border-radius: 10px;
-        width: 30%;
-        min-height: 40px;
-        height: fit-content;
-        line-height: 40px;
-        background-color: #e86610;
-        display: inline-block;
-    }
-
-    .card:hover {
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-    }
-
-    .card:active {
-        color: black;
-        background-color: rgba(16, 6, 1, 0.5);
-    }
-
-   .card p {
-        color: #fff;
-        text-align: center;
-        margin: auto;
-   }
-
     /**************/
-    .articles {
-        margin: 10px auto;
-        width: 100%;
-        color: #368276;
-        float: left;
-        text-align: center;
-    }
-
-    .articles article{
-        display: inline-block;
-        width: 40%;
-        height: 200px;
-        margin: auto;
-    }
-
-    .articles img {
-        width: 70%;
-        float: none;
-        margin-right: 5px;
-    }
-
     .articles h2 {
         margin-top: 20px;
     }
 
-    #art2 {
-        margin: 0;
-    }
-
-    #art2 img {
-        float: none;
-        width: 75%;
-    }
-
-    .explain {
-        background-color: #368276;
-        color: #fff;
-        overflow: auto;
-        padding: 10px;
-        text-align: left;
-    }
-
-    footer {
-        margin-top: 10px;
-        padding-top: 100px;
-        color: #368276;
-        text-align: center;
-    }
-
-    .nets {
-        margin-bottom: -10px;
-    }
-
-    .redes {
-      display: inline-block;
-      width: 130px;
-      padding-top: 10px;
-    }
-    
-    .redes span {
-      display: inline-block;
-      width: 30%;
-    }
-
-    .redes img {
-      width: 60%;
-      margin-bottom: 5px;
-    }
-
-    h2 {
-        font-size: 1.3em;
-    }
-
     /*login*/
-    #login {
-        background-color: #d1d1d1;
-    }
-
-    .titulo {
+    .entrar, .cadastro {
         text-align: center;
-        color: #368276;
     }
 
-    .dados {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    #space {
-        padding-top: 30px;
-        padding-bottom: 5px;
-    }
-
-    .botao {
-        order: 1;
-        align-self: center;
-        justify-self: end;
-        background-color: rgba(255,255,255,0);
-        color: #368276;
-        border-radius: 10px;
-    }
-
-    .botao:active {
-        background-color: #368276;
-        color: #e86610;
-    }
-
-    .cadastro, .entrar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .entrar {
-        border-right: 1px solid #000;
-        padding-right: 10px;
-        padding-left: 20px;
-    }
-
-    .form-s {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .input {
-        background-color: rgba(255,255,255,0);
-        border: 1px solid #000;
-        border-radius: 10px;
-    }
-
-    .orietation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .entrar > h2, .cadastro > h2 {
+        margin: 15px auto 15px;
     }
 
     #tr-1 {
@@ -973,7 +689,26 @@ time, mark, audio, video {
         border-bottom: 200px solid #47c5b23a
     }
 
-    /* Módulo 01 */
+    /* Página de módulos e cursos */
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    /* Módulo 1 */
     .video-list {
         margin: 1% 0 1% 0;
         height: 200px;
@@ -1016,70 +751,7 @@ time, mark, audio, video {
     .col-lg-11 { width: 91.66%; }
     .col-lg-12 { width: 100%; }
 
-   body {
-       background-color: #fff;
-       margin: 0;
-       box-sizing: border-box;
-   }
-
-   a {
-    text-decoration: none;
-    color: inherit;
-    }
-
-    h1.green {
-        display: block;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        margin: 12px 0 12px;
-    }
-
-    h3.green {
-        display: block;
-        font-size: 100%;
-        text-align: center;
-    }
-
     /* Página cursos.html */
-    p.modulo-box {
-        width: 120px;
-    }
-
-    .top-nav {
-        width: 100%;
-        min-height: 32px;
-        height: fit-content;
-        line-height: 32px;
-        padding: 0;
-        text-align: center;
-        background-color: rgb(54,130,118, 0.4);
-    }
-
-    .top-nav ul li {
-        text-decoration: none;
-        display: inline-block;
-        padding: 2px 4px 2px 4px;
-    }
-
-    .top-nav ul li:hover {
-        color: #fff;
-        background-color: rgb(54,130,118, 0.3);
-    }
-
-    .top-nav ul li:active {
-        color: rgb(97, 97, 97);
-        background-color: rgba(33, 80, 73, 0.3);
-    }
-
-    article.btn-area {
-        text-align: center;
-    }
-
-    .btn-area p {
-        margin: auto;
-    }
-
     div.btn {
         color: white;
         background-color: #368276;
@@ -1098,40 +770,20 @@ time, mark, audio, video {
         cursor: pointer;
     }
 
-    div.btn:hover {
-        background-color: #2f6f66;
-        color: rgb(145, 145, 145);
-    }
-
-    div.btn:active {
-        background-color: #1f4842;
-        color: rgb(97, 97, 97);
-    }
-
     #backtriangle {
         z-index: -1;
         position: absolute;
-        width: 0;
-        height: 0; 
-        border-top: 20vw solid rgb(54,130,118, 0.1);
-        border-bottom: 20vw solid transparent;
-        border-left: 77vw solid transparent;
-        border-right: 25vw solid rgb(54,130,118, 0.2);
+        top: 35px;
+        left: 0;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-image: url(./../images/back.png);
     }
     /* cursos.html */
 
     /*header*/
-    .hero-banner {
-        width: 100%;
-        height: 250px;
-        background-image: url(../images/hero-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: center;
-        padding: 2% 0;
-        bottom: 0;
-    }
-
     .logo {
         width: 18%;
         height: 25px;
@@ -1140,22 +792,6 @@ time, mark, audio, video {
         padding: 10px;
         background-color: #368276;
         text-shadow: 2px 2px 4px #000000;
-    }
-
-    .logo h1 {
-        position: absolute;
-        text-transform: uppercase;
-        margin-top: 3px;
-        color: #fff;
-    }
-
-    #triangle {
-        position: absolute;
-        width: 0; 
-        height: 0; 
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 12px solid #e86610;
     }
 
     .btn-menu {
@@ -1199,26 +835,12 @@ time, mark, audio, video {
         color: #e86610;
     }
 
-    .btn-singin {
+    .btn-signin {
         display: none;
     }
 
     /**/
-    .start-now {
-        float: left;
-        text-align: left;
-        margin: 50px 50px 0 50px;
-        color: #ffF;
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    .start-now h2, p {
-        padding-left: 2%;
-        width: 60%;
-    }
-
-    .singin {
+    .signin {
         display: inline-block;
         width: 50%;
         height: 60px;
@@ -1229,7 +851,7 @@ time, mark, audio, video {
         text-shadow: #000 1PX 1PX;
     }
 
-    .singin h2, p {
+    .signin h2, p {
         margin: 3PX;
     }
 
@@ -1242,196 +864,17 @@ time, mark, audio, video {
         float: left;
     }
 
-    .cards {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .card {
-        color: white;
-        border-radius: 10px;
-        width: 30%;
-        min-height: 40px;
-        height: fit-content;
-        line-height: 40px;
-        background-color: #e86610;
-        display: inline-block;
-    }
-
-    .card:hover {
-        background-color: rgba(92.9 , 38.8, 9.4, 0.5);
-    }
-
-    .card:active {
-        color: black;
-        background-color: rgba(16, 6, 1, 0.5);
-    }
-
-    .card p {
-        color: #fff;
-        text-align: center;
-        margin: auto;
-        font-size: 0.9456em;
-    }
-
-    .articles {
-        margin: 10px auto;
-        width: 100%;
-        color: #368276;
-        float: left;
-        text-align: center;
-    }
-
-    .articles article {
-        display: inline-block;
-        width: 40%;
-        height: 200px;
-        margin: auto;
-    }
-
-    .articles img {
-        width: 70%;
-        float: none;
-        margin-right: 5px;
-    }
-
     .articles h2 {
         margin-top: 0;
     }
 
-    #art2 {
-        margin: 0;
-    }
-
-    #art2 img {
-        float: none;
-        width: 75%;
-        
-    }
-
-    .explain {
-        background-color: #368276;
-        color: #fff;
-        overflow: auto;
-        padding: 10px;
-        text-align: left;
-    }
-
-    footer {
-        margin-top: 10px;
-        padding-top: 150px;
-        color: #368276;
-        text-align: center;
-    }
-
-    .nets {
-        margin-bottom: -10px;
-    }
-
-    .redes {
-        display: inline-block;
-        width: 130px;
-        padding-top: 10px;
-    }
-
-    .redes span {
-        display: inline-block;
-        width: 30%;
-    }
-
-    .redes img {
-        width: 60%;
-        margin-bottom: 5px;
-    }
-
-    h2 {
-        font-size: 1.3em;
-    }
-
     /*login*/
-    #login {
-        background-color: #d1d1d1;
-    }
-
-    .titulo {
+    .entrar, .cadastro {
         text-align: center;
     }
 
-    .dados {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 10px;
-    }
-
-    #space {
-        padding-top: 30px;
-        padding-bottom: 5px;
-    }
-
-    .botao {
-        order: 1;
-        align-self: center;
-        justify-self: end;
-        background-color: rgba(255,255,255,0);
-        color: #368276;
-        border-radius: 10px;
-    }
-
-    .botao:hover{
-        background-color: #368276;
-        color: #e86610;
-    }
-
-    .cadastro, .entrar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .entrar {
-        padding-right: 30px;
-    }
-
-    .cadastro {
-        border-left: 1px solid #000;
-        padding-left: 30px;
-    }
-
-    .form-l {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-
-    .entrar .form-l {
-        height: 100px;
-        justify-content: space-between;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .input {
-        background-color: rgba(255,255,255,0);
-        border: 1px solid #000;
-        border-radius: 10px;
-    }
-
-    .input:hover {
-        background-color: #36827793;
-    }
-
-    .orietation {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .entrar > h2, .cadastro > h2 {
+        margin: 15px auto 15px;
     }
 
     #tr-1 {
@@ -1456,6 +899,7 @@ time, mark, audio, video {
         border-bottom: 250px solid #47c5b23a
     }
 
+    /* Módulo 1 */
     .video-list {
         margin: 1% 0 1% 0;
         height: 400px;
