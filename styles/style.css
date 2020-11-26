@@ -57,13 +57,9 @@ h3.green {
     text-align: center;
 }
 
-/**********************/
-/* Página cursos.html */
-/**********************/
-p.modulo-box {
-    width: 120px;
-}
-
+/**********************//******************************************************/
+/*   Coisas gerais    *//******************************************************/
+/**********************//******************************************************/
 .top-nav {
     width: 100%;
     min-height: 32px;
@@ -90,27 +86,9 @@ p.modulo-box {
     background-color: rgba(33, 80, 73, 0.3);
 }
 
-article.btn-area {
-    text-align: center;
-}
-
-.btn-area p {
-    margin: auto;
-}
-
-div.btn:hover {
-    background-color: #2f6f66;
-    color: rgb(145, 145, 145);
-}
-
-div.btn:active {
-    background-color: #1f4842;
-    color: rgb(97, 97, 97);
-}
-
-/*********************/
-/* Página index.html */
-/*********************/
+/*********************//******************************************************/
+/* Página index.html *//******************************************************/
+/*********************//******************************************************/
 /* Header */
 .hero-banner {
     width: 100%;
@@ -258,9 +236,9 @@ h2 {
     font-size: 1.3em;
 }
 
-/*********************/
-/* Página login.html */
-/*********************/
+/*********************//******************************************************/
+/* Página login.html *//******************************************************/
+/*********************//******************************************************/
 #login {
     background-color: #d1d1d1;
 }
@@ -283,9 +261,34 @@ h2 {
     border-radius: 10px;
 }
 
-/***********************************/
-/*          MEDIA QUERIES          */
-/***********************************/
+/**********************//******************************************************/
+/* Página cursos.html *//******************************************************/
+/**********************//******************************************************/
+p.modulo-box {
+    width: 120px;
+}
+
+section.btn-area {
+    text-align: center;
+}
+
+.btn-area p {
+    margin: auto;
+}
+
+div.btn:hover {
+    background-color: #2f6f66;
+    color: rgb(145, 145, 145);
+}
+
+div.btn:active {
+    background-color: #1f4842;
+    color: rgb(97, 97, 97);
+}
+
+/***********************************//*****************************************/
+/*          MEDIA QUERIES          *//*****************************************/
+/***********************************//*****************************************/
 
 /* mobile col-sm */
 @media (max-width: 480px) {
@@ -306,25 +309,7 @@ h2 {
     .col-sm-11 { width: 91.66%; }
     .col-sm-12 { width: 100%; }
 
-    /* Página cursos.html*/
-    div.btn {
-        color: white;
-        background-color: #368276;
-        font-weight: bold;
-        padding: 3px;
-        margin: 65px auto 10px;
-
-        width: fit-content;
-        min-width: 80px;
-        height: fit-content;
-        min-height: 65px;
-        line-height: 65px;
-
-        border-radius: 6px;
-        text-align: center;
-        cursor: pointer;
-    }
-
+    /* Coisas gerais */
     #backtriangle {
         z-index: -1;
         position: absolute;
@@ -336,7 +321,6 @@ h2 {
         height: 100%;
         background-image: url(./../images/back.png);
     }
-    /* cursos.html */
 
     /*header*/
     .logo {
@@ -502,6 +486,24 @@ h2 {
         border-right: 200px solid transparent;
         border-bottom: 200px solid #47c5b23a
     }
+    /* Página de módulos e cursos */
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
+    }
 
     /* Módulo 1 */
     .video-list {
@@ -546,25 +548,7 @@ h2 {
     .col-md-11 { width: 91.66%; }
     .col-md-12 { width: 100%; }
 
-    /* Página cursos.html */
-    div.btn {
-        color: white;
-        background-color: #368276;
-        font-weight: bold;
-        padding: 3px;
-        margin: 65px auto 10px;
-
-        width: fit-content;
-        min-width: 80px;
-        height: fit-content;
-        min-height: 65px;
-        line-height: 65px;
-
-        border-radius: 6px;
-        text-align: center;
-        cursor: pointer;
-    }
-
+    /* Coisas gerais */
     #backtriangle {
         z-index: -1;
         position: absolute;
@@ -576,7 +560,6 @@ h2 {
         height: 100%;
         background-image: url(./../images/back.png);
     }
-    /* cursos.html */
 
     /*header*/
     .logo {
@@ -749,6 +732,25 @@ h2 {
         border-left: 200px solid transparent;
         border-right: 200px solid transparent;
         border-bottom: 200px solid #47c5b23a
+    }
+
+    /* Página de módulos e cursos */
+    div.btn {
+        color: white;
+        background-color: #368276;
+        font-weight: bold;
+        padding: 3px;
+        margin: 65px auto 10px;
+
+        width: fit-content;
+        min-width: 80px;
+        height: fit-content;
+        min-height: 65px;
+        line-height: 65px;
+
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
     }
 
     /* Módulo 1 */
