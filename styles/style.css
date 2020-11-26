@@ -240,10 +240,17 @@ h2 {
 /* Página login.html *//******************************************************/
 /*********************//******************************************************/
 #login {
+    vertical-align: middle;
     background-color: #d1d1d1;
 }
 
+label {
+    margin: auto;
+}
+
 .titulo {
+    font-weight: bold;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -253,13 +260,33 @@ h2 {
 }
 
 .botao {
-    order: 1;
-    align-self: center;
-    justify-self: end;
-    background-color: rgba(255,255,255,0);
-    color: #368276;
-    border-radius: 10px;
+    color: black;
+    background-color: #afcdc8;
+    border: solid 2px black;
+    padding: 0.75em 1em 0.75em 1em;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+.botao:hover{
+    background-color: #368276;
+    color: white;
+}
+
+.input {
+    padding: 1em;
+    margin: 0.75em auto 0.75em;
+    border-radius: 5px;
+    border: solid 2px black;
+    width: 60%;
+}
+
+.text { /* footer da página de login */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /**********************//******************************************************/
 /* Página cursos.html *//******************************************************/
@@ -425,44 +452,12 @@ div.btn:active {
     }
 
     /*login*/
-    .dados {
-        display: flex;
-        flex-direction: column;
+    .entrar, .cadastro {
+        text-align: center;
     }
 
-    .botao:active {
-        background-color: #368276;
-        color: #e86610;
-    }
-
-    .cadastro, .entrar {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .form-s {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .input {
-        background-color: rgba(255,255,255,0);
-        border: 1px solid #000;
-        border-radius: 10px;
-    }
-
-    .orietation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .entrar > h2, .cadastro > h2 {
+        margin: 15px auto 15px;
     }
 
     #tr-1 {
@@ -664,52 +659,12 @@ div.btn:active {
     }
 
     /*login*/
-    .dados {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+    .entrar, .cadastro {
+        text-align: center;
     }
 
-    .botao:active {
-        background-color: #368276;
-        color: #e86610;
-    }
-
-    .cadastro, .entrar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .entrar {
-        border-right: 1px solid #000;
-        padding-right: 10px;
-        padding-left: 20px;
-    }
-
-    .form-s {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .input {
-        background-color: rgba(255,255,255,0);
-        border: 1px solid #000;
-        border-radius: 10px;
-    }
-
-    .orietation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .entrar > h2, .cadastro > h2 {
+        margin: 15px auto 15px;
     }
 
     #tr-1 {
@@ -914,65 +869,12 @@ div.btn:active {
     }
 
     /*login*/
-    .dados {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 10px;
+    .entrar, .cadastro {
+        text-align: center;
     }
 
-    .botao:hover{
-        background-color: #368276;
-        color: #e86610;
-    }
-
-    .cadastro, .entrar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .entrar {
-        padding-right: 30px;
-    }
-
-    .cadastro {
-        border-left: 1px solid #000;
-        padding-left: 30px;
-    }
-
-    .form-l {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-
-    .entrar .form-l {
-        height: 100px;
-        justify-content: space-between;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .input {
-        background-color: rgba(255,255,255,0);
-        border: 1px solid #000;
-        border-radius: 10px;
-    }
-
-    .input:hover {
-        background-color: #36827793;
-    }
-
-    .orietation {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .entrar > h2, .cadastro > h2 {
+        margin: 15px auto 15px;
     }
 
     #tr-1 {

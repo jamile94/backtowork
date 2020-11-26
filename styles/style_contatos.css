@@ -36,7 +36,7 @@ input[type="text"].input1, textarea.input1 {
     border-width: 2px ;
 }
 
-input[type="submit"].inputButton,input[type="reset"].inputButton {
+input[type="submit"].inputButton, input[type="reset"].inputButton {
     background-color: #afcdc8;
     border: none;
     padding: 0.75em 1em 0.75em 1em;
