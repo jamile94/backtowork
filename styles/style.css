@@ -202,19 +202,20 @@ footer {
 }
 
 .redes {
-  display: inline-block;
-  width: 130px;
-  padding-top: 10px;
+    display: inline-block;
+    width: 130px;
+    padding: 0;
+    margin: auto;
 }
 
 .redes span {
-  display: inline-block;
-  width: 30%;
+    display: inline-block;
+    width: 30%;
 }
 
 .redes img {
-  width: 60%;
-  margin-bottom: 5px;
+    width: 60%;
+    margin-bottom: 5px;
 }
 
 h2 {

@@ -29,11 +29,9 @@
 /*****************************************************************************/
 
 document.write('\
-Telefone:(55) 12344 - 5678 </br>\
-Email: contato@backtowork </br>\
-<span class="nets">\
-  Redes sociais:</br>\
-</span>\
+<span>Telefone:(55) 12344 - 5678</span></br>\
+<span>Email: contato@backtowork</span></br>\
+<span>Redes sociais:</span></br>\
 \
 <div class="redes">\
   <span>\
