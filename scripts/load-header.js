@@ -13,6 +13,11 @@
 /*      document.write(' <h1>Título</h1>\                                    */
 /*                       <p>Parágrafo</p> ');                                */
 /*                                                                           */
+/* Mesmo linhas EM BRANCO necessitam da barrinha invertida: \                */
+/*      document.write(' <h1>Título</h1>\                                    */    
+/*                       \                                                   */
+/*                       <p>Parágrafo</p> ');                                */
+/*                                                                           */
 /* Quando for usar aspas, use aspas duplas "", pois a função document.write  */
 /* já recebe uma string que está usando aspas simples                        */
 /*                                                                           */
