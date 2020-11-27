@@ -1,7 +1,7 @@
 $(".btn-menu").click(function(){
-    $(".menu").show();
+    $(".hamb-menu").show();
 });
 
 $(".btn-close").click(function(){
-    $(".menu").hide();
+    $(".hamb-menu").hide();
 });
