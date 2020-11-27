@@ -113,6 +113,7 @@ h3.green {
     bottom: 0;
 }
 
+/* logo */
 .logo {
     color: white;
     min-height: fit-content;
@@ -137,6 +138,7 @@ h3.green {
 #backtowork {
     float: left
 }
+/*logo/
 
 /**/
 /**/
@@ -190,33 +192,19 @@ h3.green {
 /**************/
 /**************/
 .articles {
-    margin: 10px auto;
-    width: 100%;
+    margin: auto;
     color: #368276;
-    float: left;
     text-align: center;
 }
 
 .articles article {
-    display: inline-block;
-    width: 40%;
-    height: 200px;
-    margin: auto;
+    height: fit-content;
+    margin: 10px auto;
+    overflow: hidden;
 }
 
 .articles img {
-    width: 70%;
-    float: none;
-    margin-right: 5px;
-}
-
-#art2 {
-    margin: 0;
-}
-
-#art2 img {
-    float: none;
-    width: 75%;
+    height: 250px;
 }
 
 .explain {
@@ -356,16 +344,6 @@ div.btn:active {
     .top-nav { display: none; }
 
     /*header*/
-    /* .logo {
-        width: 33%;
-        height: 25px;
-        float: left;
-        margin: 0 10px;
-        padding: 10px;
-        background-color: #368276;
-        text-shadow: 2px 2px 4px #000000;
-    } */
-
     .btn-menu {
         width: 45px;
         height: 45px;
@@ -391,6 +369,7 @@ div.btn:active {
     }
 
     .menu ul {
+        list-style-type: none;
         width: 100%;
         float: left;
         text-align: center;
@@ -441,7 +420,6 @@ div.btn:active {
     /*main*/
     .signin {
          display: none;
-         clear: both;
     }
 
     .modulos {
@@ -558,16 +536,6 @@ div.btn:active {
     .top-nav { display: none; }
 
     /*header*/
-    /* .logo {
-        width: 30%;
-        height: 25px;
-        float: left;
-        margin: 0 10px;
-        padding: 10px;
-        background-color: #368276;
-        text-shadow: 2px 2px 4px #000000;
-    } */
-
     .btn-menu {
         width: 45px;
         height: 45px;
@@ -593,6 +561,7 @@ div.btn:active {
     }
 
     .menu ul {
+        list-style-type: none;
         width: 100%;
         float: left;
         text-align: center;
@@ -643,7 +612,6 @@ div.btn:active {
     /*main*/
     .signin {
         display: none;
-        clear: both;
    }
 
    .modulos {
@@ -777,16 +745,6 @@ div.btn:active {
     }
 
     /*header*/
-    /* .logo {
-        width: 18%;
-        height: 16px;
-        float: left;
-        margin: auto 10px;
-        padding: 10px;
-        background-color: #368276;
-        text-shadow: 2px 2px 4px #000000;
-    } */
-
     .btn-menu {
         display: none;
     }
@@ -821,37 +779,6 @@ div.btn:active {
         color: rgb(97, 97, 97);
         background-color: rgba(33, 80, 73, 0.3);
     }
-    /* .menu {
-        display: inline-block;
-        border-radius: 10px;
-        width: 60%;
-        height: 50px;
-        top: -3px;
-        left: 100px;
-        background-color: #368276;
-        position: relative;
-        line-height: 25px;
-    }
-
-    .menu ul {
-        width: 100%;
-        text-align: center;
-        float: left;
-        position: absolute;
-        margin-top: 6px;
-    }
-
-    .menu li {
-        display: inline-block;
-        padding: 6px;
-        border: transparent 0px;
-        font-size: 1.3em;
-        color: #fff;
-    }
-
-    .menu li:hover {
-        color: #e86610;
-    } */
 
     .btn-signin {
         display: none;
@@ -860,7 +787,7 @@ div.btn:active {
     /**/
     .signin {
         display: inline-block;
-        width: 50%;
+        /* width: 50%; */
         height: 60px;
         padding: 5px;
         background-color: #e86610;
@@ -876,10 +803,8 @@ div.btn:active {
     .modulos {
         background-color: #368276;
         top: 0;
-        clear: both;
         margin: auto;
-        width: 50%;
-        float: left;
+        /* width: 50%; */
     }
 
     .articles h2 {
