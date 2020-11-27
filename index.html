@@ -14,46 +14,13 @@
 
 <body>
   <header class="hero-banner">
-    <a href="index.html">
-      <div class='logo'>
-        <div id="triangle"></div>
-        <div id="backtowork">BACK TO WORK</div>
-      </div>
-    </a>
-    <button class="btn-menu">
-      <i class="fas fa-bars fa-lg"></i>
-    </button>
-    <!-- O elemento da classe hamb-menu só aparece em mobile-->
-    <!-- Essa separação foi feita para que o script de fazer ele aparecer e -->
-    <!-- desaparecer não afetasse o menu de tamanho desktop/grande -->
-    <!-- Isso é uma preocupação se a pessoa está em desktop aumentando e -->
-    <!-- diminuindo o zoom/tamanho da tela -->
-    <nav class="hamb-menu menu">
-      <a href="#" class="btn-close">x</a>
-      <ul>
-        <a href=#><li>O projeto</li></a>
-        <a href="about.html"><li>Quem somos</li></a>
-        <a href="cursos.html"><li>Cursos</li></a>
-        <a href="contatos.html"><li>Contatos</li></a>
-      </ul>
-    </nav>
-    <nav class="top-menu menu">
-      <ul>
-        <a href=#><li>O projeto</li></a>
-        <a href="about.html"><li>Quem somos</li></a>
-        <a href="cursos.html"><li>Cursos</li></a>
-        <a href="contatos.html"><li>Contatos</li></a>
-      </ul>
-    </nav>
-
+    <script src="./scripts/load-header.js"></script>
     <a href="">
       <div class="start-now">
         <h2>Conheça o Projeto Back to Work</h2>
         <p>comece nosso curso agora</p>
       </div>
     </a>
-
-
     <a href="login.html" class="btn-signin">
       <div class="div-signin">
         <p>Cadastre-se no nosso site</p>
@@ -62,44 +29,41 @@
   </header>
 
   <main>
-    <section class="signin">
-      <a href="login.html">
-        <h2>Cadaste-se no nosso site!</h2>
-        <p>comece nossos curso agora!</p>
-      </a>
-    </section>
-
-    <section class="modulos">
+    <section class="modulos col-sm-12 col-md-12 col-lg-6">
       <div class="cards">
-
         <a href="">
           <div class="card">Módulo 1</div>
         </a>
-
         <a href="">
           <div class="card">Módulo 2</div>
         </a>
-
         <a href="">
           <div class="card">Módulo 3</div>
         </a>
       </div>
     </section>
 
-    <section class="articles">
-      <article id="art1">
+    <section class="signin col-sm-12 col-md-12 col-lg-6">
+      <a href="login.html">
+        <h2>Cadaste-se no nosso site!</h2>
+        <p>comece nossos curso agora!</p>
+      </a>
+    </section>
+
+    <section class="articles col-sm-12 col-md-12 col-lg-12">
+      <article class="col-sm-12 col-md-12 col-lg-6">
         <img src="./images/pessoas-trabalhando.jpg" alt="pessoas trabalhando">
         <p>Se destaque no processo seletivo e...</p>
         <h2>Conquiste o emprego desejado!</h2>
       </article>
-      <article id="art2">
+      <article class="col-sm-12 col-md-12 col-lg-6">
         <img src="./images/linkedinimg.webp" alt="pessoas trabalhando">
         <p>Se destaque no processo seletivo e...</p>
         <h2>Conquiste o emprego desejado!</h2>
       </article>
     </section>
 
-    <section class="explain">
+    <section class="explain col-sm-12 col-md-12 col-lg-12">
       <p>Curso Online
         Back to Work!
       </p>
@@ -122,33 +86,8 @@
     </section>
   </main>
 
-  <footer>
-    Telefone:(55) 12344 - 5678 </br>
-    Email: contato@backtowork </br>
-    <span class="nets">
-      Redes sociais:</br>
-    </span>
-
-    <div class="redes">
-      <span>
-        <a href="">
-          <img src="./images/Facebook.png" alt="">
-        </a>
-      </span>
-      <span>
-        <a href="">
-          <img src="./images/twitter.png" alt="">
-        </a>
-      </span>
-      <span>
-        <a href="">
-          <img src="./images/youtube.png" alt="">
-        </a>
-      </span>
-    </div>
-      
+  <footer class="col-sm-12 col-md-12 col-lg-12">
+    <script src="./scripts/load-footer.js"></script>
   </footer>
-
-  <script src="./scripts/menu.js"></script>
 </body>
 </html>

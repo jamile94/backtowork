@@ -87,6 +87,7 @@ h3.green {
     bottom: 0;
 }
 
+/* logo */
 .logo {
     color: white;
     min-height: fit-content;
@@ -111,6 +112,7 @@ h3.green {
 #backtowork {
     float: left
 }
+/*logo/
 
 /**/
 /**/
@@ -164,33 +166,19 @@ h3.green {
 /**************/
 /**************/
 .articles {
-    margin: 10px auto;
-    width: 100%;
+    margin: auto;
     color: #368276;
-    float: left;
     text-align: center;
 }
 
 .articles article {
-    display: inline-block;
-    width: 40%;
-    height: 200px;
-    margin: auto;
+    height: fit-content;
+    margin: 10px auto;
+    overflow: hidden;
 }
 
 .articles img {
-    width: 70%;
-    float: none;
-    margin-right: 5px;
-}
-
-#art2 {
-    margin: 0;
-}
-
-#art2 img {
-    float: none;
-    width: 75%;
+    height: 250px;
 }
 
 .explain {
@@ -202,7 +190,9 @@ h3.green {
 }
 
 footer {
-    margin-top: 10px;
+    border-top: 2px solid #c4c4c4;
+    margin-top: 50px;
+    padding-top: 50px;
     color: #368276;
     text-align: center;
 }
@@ -270,13 +260,6 @@ label {
     border: solid 2px black;
     width: 60%;
 }
-
-.text { /* footer da página de login */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 /**********************//******************************************************/
 /* Página cursos.html *//******************************************************/
@@ -354,6 +337,7 @@ div.btn:active {
     }
 
     .menu ul {
+        list-style-type: none;
         width: 100%;
         float: left;
         text-align: center;
@@ -404,7 +388,6 @@ div.btn:active {
     /*main*/
     .signin {
          display: none;
-         clear: both;
     }
 
     .modulos {
@@ -545,6 +528,7 @@ div.btn:active {
     }
 
     .menu ul {
+        list-style-type: none;
         width: 100%;
         float: left;
         text-align: center;
@@ -595,7 +579,6 @@ div.btn:active {
     /*main*/
     .signin {
         display: none;
-        clear: both;
    }
 
    .modulos {
@@ -773,7 +756,7 @@ div.btn:active {
     /**/
     .signin {
         display: inline-block;
-        width: 50%;
+        /* width: 50%; */
         height: 60px;
         padding: 5px;
         background-color: #e86610;
@@ -789,10 +772,8 @@ div.btn:active {
     .modulos {
         background-color: #368276;
         top: 0;
-        clear: both;
         margin: auto;
-        width: 50%;
-        float: left;
+        /* width: 50%; */
     }
 
     .articles h2 {
