@@ -5,9 +5,11 @@ document.write('\
     <div id="backtowork">BACK TO WORK</div>\
   </div>\
 </a>\
+\
 <button class="btn-menu">\
   <i class="fas fa-bars fa-lg"></i>\
 </button>\
+\
 <nav class="menu">\
   <a href="#" class="btn-close">x</a>\
   <ul>\
@@ -17,7 +19,6 @@ document.write('\
     <a href="contatos.html"><li>Contatos</li></a>\
   </ul>\
 </nav>\
-<div id="backtriangle"></div>\
 \
 <script src="./scripts/menu.js"></script>\
 ');
