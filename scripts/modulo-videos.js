@@ -3,7 +3,7 @@ function elements(){
     let panel = $(".panel")
     let iframe = `<iframe class="col-sm-12 col-md-12 col-lg-12" src="https://www.youtube.com/embed/T5mzxYpp3WQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     videos.forEach((video) => {
-        div.append(`<button class="col-sm-12 col-md-12 checked" id="${video.id}">${video.name}</button>`);
+        div.append(`<button class="checked" id="${video.id}">${video.name}</button>`);
         
     });
     panel.append(iframe);
