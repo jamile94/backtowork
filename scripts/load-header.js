@@ -40,7 +40,12 @@ document.write('\
   <i class="fas fa-bars fa-lg"></i>\
 </button>\
 \
-<nav class="menu">\
+<!-- O elemento da classe hamb-menu só aparece em mobile-->\
+<!-- Essa separação foi feita para que o script de fazer ele aparecer e -->\
+<!-- desaparecer não afetasse o menu de tamanho desktop/grande -->\
+<!-- Isso é uma preocupação se a pessoa está em desktop aumentando e -->\
+<!-- diminuindo o zoom/tamanho da tela -->\
+<nav class="hamb-menu menu">\
   <a href="#" class="btn-close">x</a>\
   <ul>\
     <a href=#><li>O projeto</li></a>\
@@ -49,6 +54,13 @@ document.write('\
     <a href="contatos.html"><li>Contatos</li></a>\
   </ul>\
 </nav>\
-\
+<nav class="top-menu menu">\
+  <ul>\
+    <a href=#><li>O projeto</li></a>\
+    <a href="about.html"><li>Quem somos</li></a>\
+    <a href="cursos.html"><li>Cursos</li></a>\
+    <a href="contatos.html"><li>Contatos</li></a>\
+  </ul>\
+</nav>\
 <script src="./scripts/menu.js"></script>\
 ');
