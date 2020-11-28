@@ -492,10 +492,14 @@ div.quem-somos-fotos {
         border:2px solid #347D6C;
         border-radius: 5px;
         background-color: #fff;
+        text-align: left;
+        white-space: pre;
+
     }
 
     .video-list button:hover {
         background-color: #347D6C;
+        white-space: normal;
     }
 
     .video iframe {
