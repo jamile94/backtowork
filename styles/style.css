@@ -363,16 +363,16 @@ div.quem-somos-fotos {
         width: 100%;
         float: left;
         text-align: center;
+        color: #fff;
     }
 
     .menu li {
         padding: 1px;
         border: 100px;
         font-size: 2em;
-        color: #fff;
     }
 
-    .menu li:hover {
+    .hamb-menu li:hover {
         color: #368276;
     }
 
@@ -563,7 +563,7 @@ div.quem-somos-fotos {
         color: #fff;
     }
 
-    .menu li:hover{
+    .hamb-menu li:hover{
         color: #368276;
     }
 
@@ -777,16 +777,18 @@ div.quem-somos-fotos {
         text-decoration: none;
         display: inline-block;
         padding: 2px 4px 2px 4px;
+        color: white;
     }
 
-    .menu ul li:hover {
-        color: #fff;
-        background-color: rgb(54, 130, 118, 0.3);
+    .top-menu ul li:hover {
+        color: #c4c4c4;
+        background-color: rgb(54, 130, 118, 1);
     }
 
-    .menu ul li:active {
-        color: rgb(97, 97, 97);
-        background-color: rgba(33, 80, 73, 0.3);
+    .top-menu ul li:active {
+        color: #555555;
+        background-color: rgb(49, 118, 107);
+        /* background-color: rgba(33, 80, 73, 0.3); */
     }
 
     .btn-signin {
