@@ -1,4 +1,5 @@
-const videos = [
+const videos = {
+    "modulo1" : [
     { "name": "Aula 1 - Objetivo do Curso Back to Work!", "id": "T5mzxYpp3WQ" },
     { "name": "Aula 2 - Carreira com Propósito", "id": "IVsVdM0c3dU" },
     { "name": "Aula 3 - Contratações em tempo de recessão", "id": "PVquyBzVno4" },
@@ -21,7 +22,7 @@ const videos = [
     { "name": "Aula 20 - Estudando a job (competências)", "id": "SFVN27VhaA8" },
     { "name": "Aula 21 - O que o RH costuma olhar no Linkedin de um candidato?", "id": "j8KOqbZadlE" },
     { "name": "Aula 22 - Um currículo ou Linkedin deve mudar dependendo da vaga/empresa?", "id": "2WrH3a5Z9cM" },
-    { "name": "Aula 23 - Por que o RH não deu retorno sobre a minha aplicação?", "id": "" },
+    { "name": "Aula 23 - Por que o RH não deu retorno sobre a minha aplicação?", "id": "4M2L7HYhrGU" },
     { "name": "Aula 24 - Um currículo ou Linkedin deve mudar dependendo da vaga/empresa?", "id": "4RrsFeKMrlA" },
     { "name": "Aula 25 - O que é Live Screening? Como me sair bem?", "id": "Y9OgbBo3EiU" },
     { "name": "Aula 26 - Para que serve a entrevista com o RH? Como devo me preparar?", "id": "LslkhVxIBTE" },
@@ -35,5 +36,9 @@ const videos = [
     { "name": "Aula 34 - Processo seletivo: Simulação da Job", "id": "Jt1nuZB7Dmg" },
     { "name": "Aula 35 - O que aprendi entrevistando mais de 300 talentos?", "id": "i_D2SG_d-hk" },
     { "name": "Aula 36 - A pergunta de ouro", "id": "Pt1KNjbWWz0" },
-    { "name": "Aula 37 (aula final) - Bibliografia + Livros recomendados", "id": "bH5zAiiN4rY" },
-]
+    { "name": "Aula 37 (aula final) - Bibliografia + Livros recomendados", "id": "bH5zAiiN4rY" }
+    ],
+    "modulo2" : [],
+    "modulo3" : []
+  }
+  
