@@ -51,6 +51,8 @@ a {
     color: inherit;
 }
 
+button { outline: 0;}
+
 h1.green {
     display: block;
     font-size: 2em;
@@ -300,6 +302,23 @@ div.btn:active {
     background-color: #1f4842;
     color: rgb(97, 97, 97);
 }
+/***********************//*****************************************************/
+/* Página moduloX.html *//*****************************************************/
+/***********************//*****************************************************/
+.video-list button {
+    margin: 1px auto;
+    width: 90%;
+    min-height: 30px;
+    height: fit-content;
+
+    box-sizing: border-box;
+    border: 2px solid #347d6c;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.video-list button:hover { background-color: rgb(54, 130, 118, 0.7); }
+.video-list button:active { background-color: rgb(54, 130, 118); }
 
 /**********************//******************************************************/
 /* Página about.html  *//******************************************************/
@@ -427,6 +446,7 @@ div.quem-somos-fotos {
 
     /*login*/
     .entrar, .cadastro {
+        box-sizing: border-box;
         text-align: center;
     }
 
@@ -481,21 +501,9 @@ div.quem-somos-fotos {
 
     /* Módulo 1 */
     .video-list {
-        margin: 1% 0 1% 0;
         height: 200px;
         overflow: auto;
-    }
-
-    .video-list button {
-        margin: 1% 1px 0 0;
-        box-sizing: border-box;
-        border:2px solid #347D6C;
-        border-radius: 5px;
-        background-color: #fff;
-    }
-
-    .video-list button:hover {
-        background-color: #347D6C;
+        text-align: center;
     }
 
     .video iframe {
@@ -618,12 +626,13 @@ div.quem-somos-fotos {
 
     /*login*/
     .entrar, .cadastro {
+        box-sizing: border-box;
         text-align: center;
     }
 
     .cadastro {
-        margin-left: 2%;
-        border-left: 2px solid black;
+        margin-top: 20px;
+        border-top: 2px solid black;
     }
 
     .entrar > h2, .cadastro > h2 {
@@ -673,23 +682,11 @@ div.quem-somos-fotos {
 
     /* Módulo 1 */
     .video-list {
-        margin: 1% 0 1% 0;
         height: 200px;
         overflow: auto;
+        text-align: center;
     }
     
-    .video-list button {
-        margin: 1% 1px 0 0;
-        box-sizing: border-box;
-        border:2px solid #347D6C;
-        border-radius: 5px;
-        background-color: #fff;
-    }
-
-    .video-list button:hover {
-        background-color: #347D6C;
-    }
-
     .video iframe {
         height: 300px;
     }
@@ -824,6 +821,7 @@ div.quem-somos-fotos {
 
     /*login*/
     .entrar, .cadastro {
+        box-sizing: border-box;
         text-align: center;
     }
 
@@ -860,28 +858,9 @@ div.quem-somos-fotos {
 
     /* Módulo 1 */
     .video-list {
-        margin: 1% 0 1% 0;
         height: 400px;
         overflow: auto;
-    }
-
-    .video-list button {
-        margin: 1% 10px 10% 10px;
-        height: 30px;
-        box-sizing: border-box;
-        border:2px solid #347D6C;
-        border-radius: 5px;
-        background-color: #fff;
-    }
-
-    .video-list button:hover {
-        border:2px solid #347D6C;
-        background-color: #347D6C;
-    }
-
-    .video-list button.checked {
-        background-color: #347D6C;
-        border:2px solid #347D6C;
+        text-align: center;
     }
 
     .video {
