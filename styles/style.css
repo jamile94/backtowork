@@ -306,7 +306,7 @@ div.btn:active {
 /***********************//*****************************************************/
 /* Página moduloX.html *//*****************************************************/
 /***********************//*****************************************************/
-.video-list button {
+.video-button {
     margin: 1px auto;
     width: 90%;
     min-height: 30px;
@@ -315,11 +315,11 @@ div.btn:active {
     box-sizing: border-box;
     border: 2px solid #347d6c;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: white;
 }
 
-.video-list button:hover { background-color: rgb(54, 130, 118, 0.7); }
-.video-list button:active { background-color: rgb(54, 130, 118); }
+.video-button:hover { background-color: rgb(54, 130, 118, 0.7); }
+.video-button:active { background-color: rgb(54, 130, 118); }
 
 .video-name {
     box-sizing: border-box;
@@ -345,6 +345,10 @@ div.btn:active {
     border-radius: 2px;
     width: 25%;
     max-width: 100px;
+}
+
+.checked {
+    background-color: rgb(54, 130, 118, 0.7);
 }
 
 /**********************//******************************************************/
