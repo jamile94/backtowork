@@ -874,6 +874,7 @@ div.quem-somos-fotos {
         margin: 1% 0 1% 0;
         height: 400px;
         overflow: auto;
+        text-align: center;
     }
 
     .video-list button {
@@ -890,11 +891,6 @@ div.quem-somos-fotos {
     .video-list button:hover {
         border:2px solid #347D6C;
         background-color: #347D6C;
-    }
-
-    .video-list button.checked {
-        background-color: #347D6C;
-        border:2px solid #347D6C;
     }
 
     .video {

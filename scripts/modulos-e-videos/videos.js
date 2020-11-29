@@ -36,5 +36,4 @@ const videos = [
     { "name": "Aula - 35 O que aprendi entrevistando mais de 300 talentos?", "id": "i_D2SG_d-hk" },
     { "name": "Aula - 36 - A pergunta de ouro", "id": "Pt1KNjbWWz0&t=" },
     { "name": "Aula - 37 (aula final) - Bibliografia + Livros recomendados", "id": "bH5zAiiN4rY" },
-
 ]
