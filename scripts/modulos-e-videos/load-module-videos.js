@@ -11,6 +11,7 @@ function loadModuleVideos(moduleName){
     videos[moduleName].forEach((video) => {
         videolist.append(`<button class="video-button" id="${video.id}">${video.name}</button>`);
     });
+    checkableButtons();
 
     panel.append(iframe);
 
@@ -18,11 +19,6 @@ function loadModuleVideos(moduleName){
     let video = $("iframe");
     for(var el of button){
         el.addEventListener("click", (e) => {
-            // console.log(e);
-            // console.log(typeof(e));
-            // console.log(this);
-            // console.log(e.target);
-            // console.log(e.target.id);
             panel.html(`<iframe class="col-sm-12 col-md-12 col-lg-12" src="https://www.youtube.com/embed/${e.target.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`)
         })
     }
