@@ -8,7 +8,11 @@ function elements(){
     });
 
     /* Coloca o título do primeiro vídeo na tela*/
-    $(".video-list").before(`<div class="green col-sm-12 col-md-12 col-lg-12 video-name">
+    $(".video-list").before(`<div class="change-modules col-sm-12 col-md-12 col-lg-3"></div>`)
+    for (let i = 0 ; i < 3 ; i++) {
+        $(".change-modules").append(`<button>Módulo</br>${i+1}</button>`)
+    }
+    $(".video-list").before(`<div class="video-name green col-sm-12 col-md-12 col-lg-9">
                             ${videos[moduleNumber][0].name}</div>`)
     panel.append(iframe);
 
