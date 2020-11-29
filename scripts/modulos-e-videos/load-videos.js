@@ -1,17 +1,20 @@
-function elements(){
-    let moduleNumber = "modulo" + $(".module-number").text().split(' ')[1];
+function loadVideos(){
+    console.log("ENTROU NA FUNÇÃO LOADVIDEOS")
+    let moduleNumber = "modulo" + $("h1.module-number").text().split(' ')[1];
     let div = $(".video-list");
     let panel = $(".panel")
-    let iframe = `<iframe class="col-sm-12 col-md-12 col-lg-12" src="https://www.youtube.com/embed/T5mzxYpp3WQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    let firstVideo = videos[moduleNumber][0]
+    let iframe = `<iframe class="col-sm-12 col-md-12 col-lg-12" src="https://www.youtube.com/embed/${firstVideo.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     videos[moduleNumber].forEach((video) => {
         div.append(`<button id="${video.id}">${video.name}</button>`);
     });
 
+    // $(".video-list").before(`<div class="change-modules col-sm-12 col-md-12 col-lg-3"></div>`)
+    // for (let i = 0 ; i < 3 ; i++) {
+    //     $(".change-modules").append(`<button>Módulo </br>${i+1}</button>`)
+    // }
+
     /* Coloca o título do primeiro vídeo na tela*/
-    $(".video-list").before(`<div class="change-modules col-sm-12 col-md-12 col-lg-3"></div>`)
-    for (let i = 0 ; i < 3 ; i++) {
-        $(".change-modules").append(`<button>Módulo</br>${i+1}</button>`)
-    }
     $(".video-list").before(`<div class="video-name green col-sm-12 col-md-12 col-lg-9">
                             ${videos[moduleNumber][0].name}</div>`)
     panel.append(iframe);
@@ -27,4 +30,4 @@ function elements(){
 
 // function formatVideoName(string) { return string.split(' - ').splice(1).join(' ') }
 
-elements();
+loadVideos();
