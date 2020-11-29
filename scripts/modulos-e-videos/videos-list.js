@@ -41,7 +41,7 @@ const videos = {
     "modulo2" : [
       { "name": "Gorillaz - Dirty Harry", "id": "cLnkQAeMbIM"},
       { "name": "Gorillaz - DARE", "id": "uAOR6ib95kQ"},
-      { "name": "Veronica Maggio - Nöijd? (Radio Version)", "id": "6a6c5cMQA8E"},
+      { "name": "Veronica Maggio - Nöjd? (Radio Version)", "id": "6a6c5cMQA8E"},
       { "name": "O-Zone - Dragostea Dintei", "id": "YnopHCL1Jk8"}
     ],
     "modulo3" : [
@@ -50,5 +50,4 @@ const videos = {
       { "name": "Wide Putin", "id": "Wl959QnD3lM"},
       { "name": "10/10 Não é Uma Armadilha", "id": "dQw4w9WgXcQ"}
     ]
-  }
-  
+}
