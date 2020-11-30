@@ -4,6 +4,9 @@ function loadModuleVideos(moduleName){
     let firstVideo = videos[moduleName][0]; // Pega o primeiro vídeo da lista
     let iframe = `<iframe class="col-sm-12 col-md-12 col-lg-12" src="https://www.youtube.com/embed/${firstVideo.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
+    /**/
+    // $("h1.module-number").text($("h1.module-number").getAttribute("module-name"))
+
     /* Coloca o título do primeiro vídeo na tela */
     $(".video-name").text(`${firstVideo.name}`);
 
@@ -12,6 +15,9 @@ function loadModuleVideos(moduleName){
         videolist.append(`<button class="video-button" id="${video.id}">${video.name}</button>`);
     });
     checkableButtons();
+
+    $('.module-button.checked').removeClass('checked')
+    $(`[collectionname="${moduleName}"]`).addClass('checked')
 
     panel.append(iframe);
 

@@ -2,10 +2,7 @@ function checkableButtons() {
   $('.video-button').click(function() {
     let moduleNumber = "modulo" + $("h1.module-number").text().split(' ')[1];
 
-    console.log("ENTROU NA FUNÇÃO CLICANDO NO BOTÃO DE VÍDEO");
-    console.log("AAA");
-
-    $('.checked').removeClass('checked');
+    $('.video-button.checked').removeClass('checked');
     $(this).addClass('checked');
 
     $(".video-name").empty();
