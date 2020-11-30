@@ -1,16 +1,17 @@
 function checkableButtons() {
   $('.video-button').click(function() {
+    /* Pega o valor que está no atributo "modulename" do html e guarda na variável moduleName*/
     let moduleName = $("h1.module-name").attr("modulename");
+    /* OBS: Esse valor é preenchido na função load-module-videos */
 
+    /* Remove fundo verde de botões que estavam verdes e coloca fundo verde no botão clicado agora */
     $('.video-button.checked').removeClass('checked');
     $(this).addClass('checked');
 
-    console.log(`moduleName = ${moduleName}`);
-    console.log('video:');
+    /* Pega o vídeo cujo id é igual ao id do botão clicado e guarda na variável video */
     let video = videos[moduleName].find(x => x.id == this.getAttribute('id'));
-    console.log(video);
-    console.log('video.name:');
-    console.log(video.name);
+
+    /* Apaga o nome do vídeo que estava na tela antes e escreve o nome do novo vídeo */
     $(".video-name").empty();
     $(".video-name").text(video.name);
   })
