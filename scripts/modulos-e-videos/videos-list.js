@@ -1,5 +1,5 @@
 const videos = {
-  "modulo1" : [
+  "Módulo 1" : [
     { "name": "Aula 1 - Objetivo do Curso Back to Work!", "id": "T5mzxYpp3WQ" },
     { "name": "Aula 2 - Carreira com Propósito", "id": "IVsVdM0c3dU" },
     { "name": "Aula 3 - Contratações em tempo de recessão", "id": "PVquyBzVno4" },
@@ -38,14 +38,14 @@ const videos = {
     { "name": "Aula 36 - A pergunta de ouro", "id": "Pt1KNjbWWz0" },
     { "name": "Aula 37 (Aula Final) - Bibliografia + Livros recomendados", "id": "bH5zAiiN4rY" }
   ],
-  "modulo2" : [
+  "Módulo 2" : [
     { "name": "Gorillaz - Dirty Harry", "id": "cLnkQAeMbIM"},
     { "name": "Megh Stock - Vestido de Festa", "id": "4PDMjlsmFTo"},
     { "name": "Ana Tijoux - Sacar la Voz", "id": "VAayt5BsEWg"},
     { "name": "Tom Misch - Disco Yes", "id": "EXWOJvlDwbU"},
     { "name": "Molotov - Frijolero", "id": "H0YSd6lMxRk"}
   ],
-  "modulo3" : [
+  "Módulo 3" : [
     { "name": "Ana Tijoux - Antipatriarca", "id": "RoKoj8bFg2E"},
     { "name": "Tim Maia - Me Dê Motivo", "id": "6UtOV_KNnjk"},
     { "name": "Pink Floyd - Another Brick in The Wall - 100% real não fake", "id": "LqrZtvDbcts?start=35"},
