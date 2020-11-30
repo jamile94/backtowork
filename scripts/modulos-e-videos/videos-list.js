@@ -40,14 +40,17 @@ const videos = {
   ],
   "modulo2" : [
     { "name": "Gorillaz - Dirty Harry", "id": "cLnkQAeMbIM"},
-    { "name": "Gorillaz - DARE", "id": "uAOR6ib95kQ"},
-    { "name": "Veronica Maggio - Nöjd? (Radio Version)", "id": "6a6c5cMQA8E"},
-    { "name": "O-Zone - Dragostea Dintei", "id": "YnopHCL1Jk8"}
+    { "name": "Megh Stock - Vestido de Festa", "id": "4PDMjlsmFTo"},
+    { "name": "Ana Tijoux - Sacar la Voz", "id": "VAayt5BsEWg"},
+    { "name": "Tom Misch - Disco Yes", "id": "EXWOJvlDwbU"},
+    { "name": "Molotov - Frijolero", "id": "H0YSd6lMxRk"}
   ],
   "modulo3" : [
-    { "name": "Epic Sax Guy", "id": "6iFbuIpe68k"},
-    { "name": "Leek Spin", "id": "B-N1yJyrQRY"},
-    { "name": "Wide Putin", "id": "Wl959QnD3lM"},
-    { "name": "10/10 Não é Uma Armadilha", "id": "dQw4w9WgXcQ"}
+    { "name": "Ana Tijoux - Antipatriarca", "id": "RoKoj8bFg2E"},
+    { "name": "Tim Maia - Me Dê Motivo", "id": "6UtOV_KNnjk"},
+    { "name": "Pink Floyd - Another Brick in The Wall - 100% real não fake", "id": "LqrZtvDbcts?start=35"},
+    { "name": "Dummy Video 1", "id": "6iFbuIpe68k"},
+    { "name": "Dummy Video 2", "id": "B-N1yJyrQRY"},
+    { "name": "Dummy Video 3", "id": "EEvopkbc4FE?start=67"}
   ]
 }
