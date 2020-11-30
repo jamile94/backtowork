@@ -328,7 +328,8 @@ div.btn:active {
     box-sizing: border-box;
     margin: 20px auto 15px;
     font-size: 1.3em;
-    text-align: center;
+    padding-left: 13%;
+    text-align: left;
     font-weight: bold;
     overflow: visible;
 }
@@ -346,7 +347,7 @@ div.btn:active {
     background-color: rgb(196,196,196, 0.7);
     font-weight: bold;
     line-height: 87%;
-    margin: 0 3%;
+    margin: 5px 3% 0;
     border-radius: 10px;
     border-color: rgb(85,85,85, 0.7);
     /* border: 2px solid rgb(85,85,85, 0.7); */
@@ -540,6 +541,8 @@ div.quem-somos-fotos {
         height: 200px;
         overflow: auto;
         text-align: center;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .video iframe {
@@ -721,6 +724,8 @@ div.quem-somos-fotos {
         height: 200px;
         overflow: auto;
         text-align: center;
+        width: 80%;
+        margin-left: 10%;
     }
     
     .video iframe {
@@ -894,6 +899,7 @@ div.quem-somos-fotos {
 
     /* Módulo 1 */
     .video-list {
+        margin-top: 10px;
         height: 400px;
         overflow: auto;
         text-align: center;
