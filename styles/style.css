@@ -324,16 +324,6 @@ div.btn:active {
 .video-button:active { background-color: rgb(54, 130, 118); }
 .video-button.checked { background-color: rgb(54, 130, 118, 0.7); }
 
-.video-name {
-    box-sizing: border-box;
-    margin: 20px auto 15px;
-    font-size: 1.3em;
-    padding-left: 13%;
-    text-align: left;
-    font-weight: bold;
-    overflow: visible;
-}
-
 .change-modules {
     overflow: visible;
     text-align: center;
@@ -387,8 +377,10 @@ div.quem-somos-fotos {
     .col-sm-11 { width: 91.66%; }
     .col-sm-12 { width: 100%; }
 
+    .col-sm-0 { display: none;}
+
     #scrollToMe-lg { display: none; }
-    #scrollToMe-sm-md { height: 10px; }
+    #scrollToMe-sm-md { height: 1px; }
 
     /*header*/
     .btn-menu {
@@ -540,6 +532,15 @@ div.quem-somos-fotos {
     }
 
     /* Módulo 1 */
+    .video-name {
+        box-sizing: border-box;
+        margin: 20px auto 15px;
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: bold;
+        overflow: visible;
+    }
+
     .video-list {
         height: 200px;
         overflow: auto;
@@ -572,8 +573,10 @@ div.quem-somos-fotos {
     .col-md-11 { width: 91.66%; }
     .col-md-12 { width: 100%; }
 
+    .col-md-0 { display: none;}
+
     #scrollToMe-lg { display: none; }
-    #scrollToMe-sm-md { height: 10px; }
+    #scrollToMe-sm-md { height: 1px; }
 
     /*header*/
     .btn-menu {
@@ -726,6 +729,15 @@ div.quem-somos-fotos {
     }
 
     /* Módulo 1 */
+    .video-name {
+        box-sizing: border-box;
+        margin: 20px auto 15px;
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: bold;
+        overflow: visible;
+    }
+
     .video-list {
         height: 200px;
         overflow: auto;
@@ -758,7 +770,9 @@ div.quem-somos-fotos {
     .col-lg-11 { width: 91.66%; }
     .col-lg-12 { width: 100%; }
 
-    #scrollToMe-lg { height: 10px; }
+    .col-lg-0 { display: none; }
+
+    #scrollToMe-lg { height: 1px; }
     #scrollToMe-sm-md { display: none; }
 
     /* Página cursos.html */
@@ -907,6 +921,16 @@ div.quem-somos-fotos {
     }
 
     /* Módulo 1 */
+    .video-name {
+        box-sizing: border-box;
+        margin: 20px auto 15px;
+        font-size: 1.3em;
+        padding-left: 13%;
+        text-align: left;
+        font-weight: bold;
+        overflow: visible;
+    }
+
     .video-list {
         margin-top: 10px;
         height: 400px;

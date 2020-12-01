@@ -33,8 +33,7 @@ function loadModuleVideos(moduleName){
             // scrolling(e);
             // getVideoDuration();
             var id = (window.matchMedia("(min-width: 768px)").matches)? "scrollToMe-lg" : "scrollToMe-sm-md";
-            console.log(`id = ${id}`);
-            document.getElementById(id).scrollIntoView();
+            document.getElementById(id).scrollIntoView({ behavior: "smooth" });
         })
     }
 };
