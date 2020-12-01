@@ -387,6 +387,9 @@ div.quem-somos-fotos {
     .col-sm-11 { width: 91.66%; }
     .col-sm-12 { width: 100%; }
 
+    #scrollToMe-lg { display: none; }
+    #scrollToMe-sm-md { height: 10px; }
+
     /*header*/
     .btn-menu {
         width: 45px;
@@ -569,6 +572,9 @@ div.quem-somos-fotos {
     .col-md-11 { width: 91.66%; }
     .col-md-12 { width: 100%; }
 
+    #scrollToMe-lg { display: none; }
+    #scrollToMe-sm-md { height: 10px; }
+
     /*header*/
     .btn-menu {
         width: 45px;
@@ -727,7 +733,7 @@ div.quem-somos-fotos {
         width: 80%;
         margin-left: 10%;
     }
-    
+
     .video iframe {
         height: 300px;
     }
@@ -751,6 +757,9 @@ div.quem-somos-fotos {
     .col-lg-10 { width: 83.33%; }
     .col-lg-11 { width: 91.66%; }
     .col-lg-12 { width: 100%; }
+
+    #scrollToMe-lg { height: 10px; }
+    #scrollToMe-sm-md { display: none; }
 
     /* Página cursos.html */
     div.btn {
