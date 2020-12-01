@@ -1,8 +1,7 @@
 * {
-
     margin: 0;
     padding: 0;
-  }
+}
 
 .circo-recorte {
     clip-path: circle(45% at 50% 50%);

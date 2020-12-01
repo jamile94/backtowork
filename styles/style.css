@@ -2,6 +2,8 @@
   verde: rgb(54,130,118) OU #368276
   laranja: rgb(232,102,16) OU #e86610
   opção de verde escuro? #2f6f66
+  #c4c4c4 = rgb(196,196,196)
+  #555555 = rgb(85,85,85)
 */
 
 /* reset*/
@@ -302,10 +304,11 @@ div.btn:active {
     background-color: #1f4842;
     color: rgb(97, 97, 97);
 }
-/***********************//*****************************************************/
-/* Página moduloX.html *//*****************************************************/
-/***********************//*****************************************************/
-.video-list button {
+
+/*****************************//***********************************************/
+/* Página modulos-aulas.html *//***********************************************/
+/*****************************//***********************************************/
+.video-button {
     margin: 1px auto;
     width: 90%;
     min-height: 30px;
@@ -314,17 +317,45 @@ div.btn:active {
     box-sizing: border-box;
     border: 2px solid #347d6c;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: white;
 }
 
-.video-list button:hover { background-color: rgb(54, 130, 118, 0.7); }
-.video-list button:active { background-color: rgb(54, 130, 118); }
+.video-button:hover { background-color: rgb(54, 130, 118, 0.7); }
+.video-button:active { background-color: rgb(54, 130, 118); }
+.video-button.checked { background-color: rgb(54, 130, 118, 0.7); }
 
 .video-name {
+    box-sizing: border-box;
+    margin: 20px auto 15px;
     font-size: 1.3em;
-    text-align: center;
+    padding-left: 13%;
+    text-align: left;
     font-weight: bold;
+    overflow: visible;
 }
+
+.change-modules {
+    overflow: visible;
+    text-align: center;
+    margin: 20px 0 15px;
+    height: 20px;
+}
+
+.module-button {
+    box-sizing: border-box;
+    color: rgb(85,85,85);
+    background-color: rgb(196,196,196, 0.7);
+    font-weight: bold;
+    line-height: 87%;
+    margin: 5px 3% 0;
+    border-radius: 10px;
+    border-color: rgb(85,85,85, 0.7);
+    /* border: 2px solid rgb(85,85,85, 0.7); */
+    width: 25%;
+    max-width: 100px;
+}
+
+.module-button.checked { color: white; background-color: #368276; }
 
 /**********************//******************************************************/
 /* Página about.html  *//******************************************************/
@@ -510,6 +541,8 @@ div.quem-somos-fotos {
         height: 200px;
         overflow: auto;
         text-align: center;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .video iframe {
@@ -691,6 +724,8 @@ div.quem-somos-fotos {
         height: 200px;
         overflow: auto;
         text-align: center;
+        width: 80%;
+        margin-left: 10%;
     }
     
     .video iframe {
@@ -864,6 +899,7 @@ div.quem-somos-fotos {
 
     /* Módulo 1 */
     .video-list {
+        margin-top: 10px;
         height: 400px;
         overflow: auto;
         text-align: center;
