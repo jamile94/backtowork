@@ -49,7 +49,7 @@ document.write('\
   <a href="#" class="btn-close">x</a>\
   <ul>\
     <a href=#><li>O projeto</li></a>\
-    <a href="about.html"><li>Quem somos</li></a>\
+    <a href="quem-somos.html"><li>Quem somos</li></a>\
     <a href="cursos.html"><li>Cursos</li></a>\
     <a href="contatos.html"><li>Contatos</li></a>\
   </ul>\
@@ -57,7 +57,7 @@ document.write('\
 <nav class="top-menu menu">\
   <ul>\
     <a href=#><li>O projeto</li></a>\
-    <a href="about.html"><li>Quem somos</li></a>\
+    <a href="quem-somos.html"><li>Quem somos</li></a>\
     <a href="cursos.html"><li>Cursos</li></a>\
     <a href="contatos.html"><li>Contatos</li></a>\
   </ul>\
