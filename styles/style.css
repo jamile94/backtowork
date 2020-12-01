@@ -369,9 +369,6 @@ h1.quem-sou {
 .btn-quem-somos:active { background-color: #347d6cbd; color: #c4c4c4; }
 
 .card-quem-sou {
-    text-align: justify;
-    text-justify: inter-word;
-
     padding: 30px;
     box-sizing: border-box;
     margin: 20px 25%;
