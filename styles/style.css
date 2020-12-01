@@ -362,10 +362,33 @@ h1.quem-sou {
     height: 80px;
     border-radius: 500px;
     background-color: rgb(54,130,118, 0.3);
+    cursor: pointer;
 }
 
 .btn-quem-somos:hover { background-color: rgb(54,130,118, 0.5); }
 .btn-quem-somos:active { background-color: #347d6cbd; color: #c4c4c4; }
+
+.card-quem-sou {
+    text-align: justify;
+    text-justify: inter-word;
+
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 20px 25%;
+
+    min-width: fit-content;
+    width: 50%;
+    max-width: 600px;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.card-quem-sou:hover {
+    /* padding: 28px; */
+    /* border: 4px solid rgb(140, 140, 140); */
+    /* box-shadow: 3px 5px 20px -3px #000000 */
+    box-shadow: 4px 4px 10px -3px #000000;
+}
 
 /***********************************//*****************************************/
 /*          MEDIA QUERIES          *//*****************************************/
