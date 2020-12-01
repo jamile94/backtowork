@@ -30,8 +30,10 @@ function loadModuleVideos(moduleName){
     for(var el of button){
         el.addEventListener("click", (e) => {
             panel.html(`<iframe class="col-sm-12 col-md-12 col-lg-12" src="https://www.youtube.com/embed/${e.target.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
-            scrolling(e);
-            getVideoDuration();
+            // scrolling(e);
+            // getVideoDuration();
+            var id = (window.matchMedia("(min-width: 768px)").matches)? "scrollToMe-lg" : "scrollToMe-sm-md";
+            document.getElementById(id).scrollIntoView({ behavior: "smooth" });
         })
     }
 };
