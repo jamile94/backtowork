@@ -103,3 +103,15 @@ input[type='submit'].inputButton:hover, input[type="reset"].inputButton:hover {
     margin-left: 10px;
     color: #368276;
 }
+
+.card-contatos {
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 20px 5%;
+
+    width: 90%;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.card-contatos:hover { box-shadow: 4px 4px 10px -3px #000000; }

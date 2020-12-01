@@ -380,12 +380,7 @@ h1.quem-sou {
     border-radius: 5px;
 }
 
-.card-quem-sou:hover {
-    /* padding: 28px; */
-    /* border: 4px solid rgb(140, 140, 140); */
-    /* box-shadow: 3px 5px 20px -3px #000000 */
-    box-shadow: 4px 4px 10px -3px #000000;
-}
+.card-quem-sou:hover { box-shadow: 4px 4px 10px -3px #000000; }
 
 /***********************************//*****************************************/
 /*          MEDIA QUERIES          *//*****************************************/
