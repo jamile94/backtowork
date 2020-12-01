@@ -1,24 +1,30 @@
-# backtowork
-BACK TO WORK - DESCRIÇÃO DO SISTEMA
- 	Um site com objetivo de auxiliar a ONG a realocar pessoas no mercado de trabalho, 
-  com cursos, consultorias. Além disso, ajudar essas pessoas a aprender a relevância
-  de redes sociais como o Linkedin, a fazer curriculum, se preparar para entrevistas,
-  visando assim uma rápida recolocação no mercado de trabalho.
-  
-DESCRIÇÃO DO SISTEMA
-  Usuários: Pessoas buscando uma oportunidade de trabalho
-  Sexo: Feminino (50%) – Masculino (50%).
-  Idade: de 30 a 40 anos.
-  Renda: baixa renda.
-  Nível Escolar: baixo.
-  Tecnologia: Usuários de computadores, tablets e smartphones
-  Perfil do usuário: Pessoas que por causa da pandemia perderam seus postos de trabalho, e estão com dificuldade de voltar ao mercado
-  JUSTIFICATIVA DO PERFIL
-  Para o usuário poder usar o sistema ele não necessita saber de tecnologia, os usuários são maiores de idade.
-  Experiência com tecnologia (1- precisa de ajuda e 5- experiente): 2.
-  Ferramentas e aplicativos que utiliza: google(busca), email, facebook, whatsapp.
-  Utilização de redes sociais (1 não entra e 5 Muito): 2.
-INFORMAÇÕES RELEVANTE O SITE
- No site deverá ter links para o primeiro módulo do curso que está hospedado no youtube,
- para os demais módulos (ao todo 3), será necessário o cadastro do usuário. 
- De acordo com as informações obtidas, montou-se algumas telas como sugestão do projeto.
+# Backtowork
+
+## A ong
+A ONG **Backtowork** é basicamente um grupo de pessoas que querem ajudar as pessoas\
+que perderam seus empregos na pandemia ou que estão desempregadas faz tempo a\
+se recolocarem no mercado de trabalho.\
+Para isso, eles gravaram (e gravam) aulas ensinando sobre curriculos, como\
+fazer uma entrevista, Linkedin, o que pensa um entrevistador etc.
+
+### Público Alvo
+A ONG tem como um público alvo pessoas em torno de 30 e 40 anos, desempregados,\
+de baixa renda e que não são necessariamente familiarizados com tecnologia,\
+computadores, smartphones etc.
+___
+
+## Nosso trabalho
+Nós, alunos da **Trilha de Devs**, fomos encarregados então de fazer um site\
+que reunissevas informações relevantes do projeto, como uma descrição do\
+programa, como entrar em contato e também as aulas dos cursos em si.\
+Pensando no perfil do Público Alvo, o site deveria ser simples e intuitivo,\
+facilitando a vida do usuário sempre que possível.
+___
+
+## Fim do projeto
+Por conta de falta de comunicação, tempo, colaboração e talvez empenho, a ONG\
+foi infelizmente desligada do programa da **Trilha de Devs** durante o\
+desenvolvimento deste site.\
+O que foi produzido por nós está neste repositório, porém nós simplesmente não\
+temos muitas informações, principalmente de textos, e o site está com uma cara\
+de incompleto.
