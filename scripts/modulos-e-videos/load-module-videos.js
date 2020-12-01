@@ -14,11 +14,17 @@ function loadModuleVideos(moduleName){
     /* Coloca o título do primeiro vídeo na tela */
     $(".video-name").text(`${firstVideo.name}`);
 
+    /* Criando dinâmicamente os botões de mudar de módulo */
+    for (let i = 0 ; i < Object.keys(videos).length ; i++) {
+        $(".change-modules").append(`<button class="module-button" collectionname="Módulo ${i+1}">Módulo </br>${i+1}</button>`);
+    }
+    clickableModuleButtons();
+
     /* Coloca a lista com os botões dos vídeos dentro da div com a classe .video-list */
     videos[moduleName].forEach((video) => {
         videolist.append(`<button class="video-button" id="${video.id}">${video.name}</button>`);
     });
-    checkableButtons(); // dá o efeito de clicar e ficar verde aos botões recém gerados acima
+    checkableVideoButtons(); // dá o efeito de clicar e ficar verde aos botões recém gerados acima
 
     /* Deixa verde apenas o botão do módulo correspondente ao título da página em que estamos */
     $('.module-button.checked').removeClass('checked') // remove o verde de algum outro possível botão de módulo que esteja verde

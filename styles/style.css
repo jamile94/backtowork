@@ -308,6 +308,8 @@ div.btn:active {
 /*****************************//***********************************************/
 /* Página modulos-aulas.html *//***********************************************/
 /*****************************//***********************************************/
+.video-area { width: 100%; }
+
 .video-button {
     margin: 1px auto;
     width: 90%;
@@ -328,7 +330,7 @@ div.btn:active {
     overflow: visible;
     text-align: center;
     margin: 20px 0 15px;
-    height: 20px;
+    height: fit-content;
 }
 
 .module-button {

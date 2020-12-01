@@ -19,30 +19,31 @@
   </header>
 
   <main class="col-sm-12 col-md-12 col-lg-12">
-    <div id="scrollToMe-lg" class="col-sm-0 col-md-0 col-lg-12"></div>
 
     <!--Tanto o campo "modulename" quando o texto são preenchidos no script load-module-videos (linhas 4 e 5)-->
     <h1 class="module-name green" modulename=""></h1>
     <h3 class="darkgrey">O Curso “Back to Work!” está disponível 100% gratuito no Youtube</h3>
 
+    <div id="scrollToMe-lg" class="col-sm-0 col-md-0 col-lg-12"></div>
+
     <div class="change-modules col-sm-12 col-md-12 col-lg-3">
-      <button class="module-button" collectionname="Módulo 1">Módulo </br>1</button>
-      <button class="module-button" collectionname="Módulo 2">Módulo </br>2</button>
-      <button class="module-button" collectionname="Módulo 3">Módulo </br>3</button>
     </div>
 
     <div class="video-name green col-sm-0 col-md-0 col-lg-9"> <!--Também preenchido no script load-module-videos-->
     </div>
 
-    <div class="video-list col-sm-12 col-md-12 col-lg-3"> <!--Idem-->
-    </div>
+    <section class="video-area">
+      <div class="video-list col-sm-12 col-md-12 col-lg-3"> <!--Idem-->
+      </div>
 
-    <div id="scrollToMe-sm-md" class="col-sm-12 col-md-12"></div>
+      <div id="scrollToMe-sm-md" class="col-sm-12 col-md-12"></div>
 
-    <div class="video-name green col-sm-12 col-md-12 col-lg-0"> <!--Também preenchido no script load-module-videos-->
-    </div>
-    <div class="video col-sm-12 col-md-12 col-lg-9"> <!--Ditto (:-->
-    </div>
+      <div class="video-name green col-sm-12 col-md-12 col-lg-0"> <!--Também preenchido no script load-module-videos-->
+      </div>
+
+      <div class="video col-sm-12 col-md-12 col-lg-9"> <!--Ditto (:-->
+      </div>
+    </section>
   </main>
 
   <footer class="col-sm-12 col-md-12 col-lg-12">
@@ -50,9 +51,9 @@
   </footer>
 
   <script src="./scripts/modulos-e-videos/videos-list.js"></script>
-  <script src="./scripts/modulos-e-videos/checkable-buttons.js"></script>
+  <script src="./scripts/modulos-e-videos/clickable-module-buttons.js"></script>
+  <script src="./scripts/modulos-e-videos/checkable-video-buttons.js"></script>
   <script src="./scripts/modulos-e-videos/load-module-videos.js"></script>
-  <script src="./scripts/modulos-e-videos/change-module-buttons.js"></script>
   <!--Quando carregamos o script load-module-videos pela primeira vez ele por padrão está carregando a página com o título "Módulo 1"-->
 </body>
 </html>

@@ -1,4 +1,4 @@
-function checkableButtons() {
+function checkableVideoButtons() {
   $('.video-button').click(function() {
     /* Pega o valor que está no atributo "modulename" do html e guarda na variável moduleName*/
     let moduleName = $("h1.module-name").attr("modulename");
