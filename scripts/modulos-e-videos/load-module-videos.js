@@ -14,6 +14,12 @@ function loadModuleVideos(moduleName){
     /* Coloca o título do primeiro vídeo na tela */
     $(".video-name").text(`${firstVideo.name}`);
 
+    /* Criando dinâmicamente os botões de mudar de módulo */
+    for (let i = 0 ; i < Object.keys(videos).length ; i++) {
+        $(".change-modules").append(`<button class="module-button" collectionname="Módulo ${i+1}">Módulo </br>${i+1}</button>`);
+    }
+    clickableModuleButtons();
+
     /* Coloca a lista com os botões dos vídeos dentro da div com a classe .video-list */
     videos[moduleName].forEach((video) => {
         videolist.append(`<button class="video-button" id="${video.id}">${video.name}</button>`);

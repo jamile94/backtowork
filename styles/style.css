@@ -328,7 +328,8 @@ div.btn:active {
     overflow: visible;
     text-align: center;
     margin: 20px 0 15px;
-    height: 20px;
+    min-height: 20px;
+    height: fit-content;
 }
 
 .module-button {
