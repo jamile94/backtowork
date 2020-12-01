@@ -14,7 +14,5 @@ function clickableModuleButtons () {
     $(".video-list").empty();
     $(".change-modules").empty();
     loadModuleVideos(this.getAttribute('collectionname'));
-    /* OBS: Passamos como parâmetro o valor que está no atributo "collectionname" do botão clicado. */
-    /* Este atributo foi criado no html modulos-aula, é um atributo inventado */
   });
 }
