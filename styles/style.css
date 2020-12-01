@@ -380,7 +380,6 @@ div.quem-somos-fotos {
     .col-sm-0 { display: none;}
 
     #scrollToMe-lg { display: none; }
-    #scrollToMe-sm-md { height: 1px; }
 
     /*header*/
     .btn-menu {
@@ -576,7 +575,6 @@ div.quem-somos-fotos {
     .col-md-0 { display: none;}
 
     #scrollToMe-lg { display: none; }
-    #scrollToMe-sm-md { height: 1px; }
 
     /*header*/
     .btn-menu {
@@ -772,7 +770,6 @@ div.quem-somos-fotos {
 
     .col-lg-0 { display: none; }
 
-    #scrollToMe-lg { height: 1px; }
     #scrollToMe-sm-md { display: none; }
 
     /* Página cursos.html */
