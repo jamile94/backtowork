@@ -37,17 +37,17 @@ Email: contato@backtowork </br>\
 \
 <div class="redes">\
   <span>\
-    <a href="">\
+    <a href="https://www.facebook.com/" target="blank">\
       <img src="./images/Facebook.png" alt="Facebook">\
     </a>\
   </span>\
   <span>\
-    <a href="">\
+    <a href="https://twitter.com/" target="blank">\
       <img src="./images/twitter.png" alt="Twitter">\
     </a>\
   </span>\
   <span>\
-    <a href="">\
+    <a href="https://www.youtube.com/" target="blank">\
       <img src="./images/youtube.png" alt="Youtube">\
     </a>\
   </span>\
