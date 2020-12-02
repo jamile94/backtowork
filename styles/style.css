@@ -181,6 +181,16 @@ footer .redes img { margin-top: 13px; }
     margin: auto;
 }
 
+.index-link-area {
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto 0 auto 10%;
+    overflow: hidden;
+}
+
+.index-link-area a:hover { text-decoration: underline; }
+.index-link-area img:hover { box-shadow: 0px 0px 15px 0px #000000; }
+
 .articles {
     margin: auto;
     color: #368276;
