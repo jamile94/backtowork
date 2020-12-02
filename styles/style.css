@@ -305,6 +305,12 @@ div.btn:active {
     color: rgb(97, 97, 97);
 }
 
+div.btn.lock {
+    color: white;
+    background-color: #555555;
+    cursor: unset;
+}
+
 /*****************************//***********************************************/
 /* Página modulos-aulas.html *//***********************************************/
 /*****************************//***********************************************/
@@ -539,6 +545,7 @@ h1.quem-sou {
         border-right: 200px solid transparent;
         border-bottom: 200px solid #47c5b23a
     }
+
     /* Página de módulos e cursos */
     div.btn {
         color: white;
@@ -808,8 +815,10 @@ h1.quem-sou {
         padding: 3px;
         margin: 65px auto 10px;
 
-        width: fit-content;
-        min-width: 60%;
+        width: 60%;
+        min-width: 140px;
+        max-width: 280px;
+
         height: fit-content;
         min-height: 140px;
         line-height: 140px;
@@ -817,24 +826,6 @@ h1.quem-sou {
         border-radius: 6px;
         text-align: center;
         cursor: pointer;
-    }
-
-    div.btn.lock {
-        color: white;
-        background-color: #555555;
-        font-weight: bold;
-        padding: 3px;
-        margin: 65px auto 10px;
-
-        width: fit-content;
-        min-width: 60%;
-        height: fit-content;
-        min-height: 140px;
-        line-height: 140px;
-
-        border-radius: 6px;
-        text-align: center;
-        cursor: unset;
     }
 
     /*header*/
