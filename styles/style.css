@@ -90,6 +90,8 @@ h3.darkgrey {
     background-image: url(./../images/back.png);
 }
 
+footer .redes img { margin-top: 13px; }
+
 /*********************//******************************************************/
 /* Página index.html *//******************************************************/
 /*********************//******************************************************/
@@ -130,10 +132,8 @@ h3.darkgrey {
 #backtowork {
     float: left
 }
-/*logo/
+/*logo*/
 
-/**/
-/**/
 .start-now {
     float: left;
     text-align: left;
@@ -181,8 +181,6 @@ h3.darkgrey {
     margin: auto;
 }
 
-/**************/
-/**************/
 .articles {
     margin: auto;
     color: #368276;
