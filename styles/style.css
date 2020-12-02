@@ -594,6 +594,13 @@ h1.quem-sou {
     .video iframe {
         height: 300px;
     }
+
+    /* quem-somos */
+    .card-quem-sou {
+        margin-left: 0;
+        margin-right: 0;
+        width: 75%;
+    }
 }
 
 /* tablet -- col-md */
